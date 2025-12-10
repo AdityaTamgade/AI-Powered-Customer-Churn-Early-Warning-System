@@ -1,0 +1,18 @@
+[
+    "customer_id",
+    "gender",
+    "age",
+    "tenure",
+    "plan_type",
+    "monthly_charges",
+    "total_charges",
+    "num_complaints",
+    "support_calls",
+    "contract_type",
+    "payment_method",
+    "internet_usage_gb",
+    "high_usage_flag",
+    "high_complaints_flag",
+    "high_support_flag",
+    "tenure_months"
+]

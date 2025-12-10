@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+sqlalchemy
+#sqlite3  # placeholder; built-in in Python but okay
+streamlit
+joblib
+xgboost

@@ -1,0 +1,1001 @@
+customer_id,gender,age,tenure,plan_type,monthly_charges,total_charges,num_complaints,support_calls,contract_type,payment_method,internet_usage_gb,churned
+1,Male,34,11,Basic,292.16,3213.76,0,2,Monthly,Credit Card,54.6,1
+2,Female,26,56,Standard,606.72,33976.32,2,3,Quarterly,Wallet,130.3,0
+3,Male,50,67,Premium,1415.89,94864.63,0,1,Monthly,Net Banking,141.0,0
+4,Male,37,29,Basic,1305.88,37870.52,1,0,Quarterly,Credit Card,11.0,0
+5,Male,30,9,Standard,1476.48,13288.32,0,4,Quarterly,UPI,10.0,0
+6,Female,45,67,Premium,1016.39,68098.13,2,2,Yearly,Credit Card,158.5,0
+7,Male,65,25,Basic,521.76,13044.0,1,2,Quarterly,Net Banking,210.3,1
+8,Male,46,42,Basic,411.66,17289.72,1,3,Quarterly,UPI,282.9,0
+9,Male,30,9,Premium,442.99,3986.91,0,1,Monthly,UPI,57.8,0
+10,Female,63,40,Basic,225.73,9029.2,0,3,Monthly,UPI,35.5,0
+11,Male,52,25,Standard,707.89,17697.25,0,0,Monthly,Wallet,20.4,1
+12,Male,23,5,Standard,448.86,2244.3,0,0,Monthly,UPI,133.6,0
+13,Male,35,11,Basic,735.15,8086.65,3,2,Quarterly,Wallet,188.8,0
+14,Male,68,59,Basic,1415.49,83513.91,1,5,Quarterly,Wallet,253.0,0
+15,Female,22,38,Standard,759.7,28868.6,0,1,Monthly,Credit Card,206.4,1
+16,Male,64,5,Basic,1341.38,6706.9,1,3,Monthly,Credit Card,66.5,1
+17,Female,42,48,Basic,987.16,47383.68,0,1,Monthly,UPI,141.2,0
+18,Female,19,18,Standard,521.27,9382.86,0,0,Quarterly,Net Banking,273.6,0
+19,Female,27,70,Standard,662.61,46382.7,1,4,Quarterly,UPI,101.4,0
+20,Male,47,37,Basic,309.1,11436.7,1,1,Quarterly,Credit Card,152.1,0
+21,Female,67,60,Premium,633.5,38010.0,0,3,Monthly,UPI,287.8,0
+22,Male,62,48,Basic,1080.8,51878.4,0,0,Monthly,Credit Card,221.7,0
+23,Female,22,28,Premium,293.74,8224.72,0,1,Quarterly,UPI,225.6,0
+24,Female,50,69,Standard,467.02,32224.38,2,0,Quarterly,Net Banking,79.4,0
+25,Female,18,40,Standard,695.87,27834.8,2,3,Monthly,UPI,127.3,0
+26,Female,35,45,Standard,1476.66,66449.7,1,1,Quarterly,Net Banking,29.3,0
+27,Female,49,62,Premium,1220.32,75659.84,1,1,Monthly,Net Banking,183.9,1
+28,Female,64,58,Basic,1153.53,66904.74,1,3,Quarterly,UPI,35.6,0
+29,Female,66,67,Standard,351.05,23520.35,1,2,Quarterly,Net Banking,251.6,0
+30,Female,28,56,Basic,1215.29,68056.24,0,6,Quarterly,Net Banking,245.3,0
+31,Male,38,40,Basic,1220.85,48834.0,0,4,Monthly,Credit Card,162.4,1
+32,Male,43,40,Basic,981.43,39257.2,1,1,Monthly,Credit Card,46.6,1
+33,Female,42,33,Premium,1487.47,49086.51,0,1,Quarterly,Net Banking,12.5,0
+34,Female,39,6,Premium,622.83,3736.98,1,3,Quarterly,Wallet,240.0,1
+35,Female,44,19,Basic,1423.65,27049.35,0,2,Monthly,UPI,182.0,1
+36,Male,66,40,Basic,1389.15,55566.0,3,1,Quarterly,Net Banking,214.7,0
+37,Female,30,59,Standard,214.92,12680.28,1,2,Monthly,UPI,94.6,0
+38,Male,50,59,Standard,785.15,46323.85,0,0,Yearly,Credit Card,155.3,0
+39,Male,51,48,Basic,1470.24,70571.52,0,2,Quarterly,UPI,225.4,0
+40,Male,58,41,Standard,334.06,13696.46,1,4,Monthly,Net Banking,141.5,0
+41,Male,52,13,Standard,912.12,11857.56,0,3,Monthly,Net Banking,182.4,0
+42,Male,18,45,Premium,1472.64,66268.8,3,2,Monthly,Net Banking,238.0,1
+43,Female,38,53,Basic,922.14,48873.42,0,1,Monthly,Net Banking,68.5,1
+44,Female,65,42,Standard,446.76,18763.92,1,1,Monthly,Wallet,24.4,0
+45,Female,23,63,Standard,956.84,60280.92,0,0,Quarterly,Wallet,161.9,0
+46,Female,45,27,Standard,465.77,12575.79,2,0,Yearly,Wallet,23.3,0
+47,Female,34,38,Standard,875.62,33273.56,2,3,Monthly,Net Banking,231.1,0
+48,Male,22,60,Standard,296.25,17775.0,1,0,Monthly,Wallet,217.2,0
+49,Female,48,7,Basic,987.13,6909.91,0,3,Monthly,UPI,265.1,0
+50,Female,22,5,Premium,871.83,4359.15,1,2,Monthly,Net Banking,193.7,0
+51,Male,55,45,Standard,1162.21,52299.45,1,0,Monthly,Credit Card,24.8,0
+52,Female,20,58,Basic,1019.91,59154.78,1,4,Quarterly,Net Banking,79.7,0
+53,Male,40,31,Standard,914.49,28349.19,0,0,Yearly,UPI,243.3,0
+54,Female,54,23,Basic,1096.71,25224.33,0,2,Monthly,Wallet,54.3,1
+55,Male,54,42,Basic,387.12,16259.04,3,2,Quarterly,Net Banking,211.1,0
+56,Female,27,10,Premium,973.97,9739.7,3,3,Yearly,Wallet,235.2,1
+57,Female,27,32,Standard,423.74,13559.68,2,5,Monthly,Net Banking,102.4,0
+58,Male,36,53,Standard,1403.18,74368.54,2,1,Quarterly,UPI,100.1,0
+59,Male,34,30,Basic,288.83,8664.9,0,0,Quarterly,Net Banking,169.6,0
+60,Male,38,39,Standard,759.49,29620.11,0,2,Monthly,Wallet,259.1,0
+61,Male,31,31,Basic,1104.54,34240.74,2,1,Monthly,Wallet,71.1,1
+62,Male,26,2,Basic,795.43,1590.86,2,3,Quarterly,UPI,282.7,0
+63,Male,63,12,Premium,319.72,3836.64,5,5,Quarterly,Net Banking,181.7,1
+64,Male,18,39,Standard,919.39,35856.21,0,2,Monthly,Credit Card,297.7,0
+65,Male,68,66,Standard,1034.12,68251.92,2,1,Monthly,Net Banking,31.4,1
+66,Female,62,13,Basic,1114.93,14494.09,0,2,Monthly,UPI,42.3,1
+67,Female,30,46,Premium,685.24,31521.04,1,1,Yearly,Credit Card,248.9,0
+68,Male,21,27,Standard,932.76,25184.52,1,1,Monthly,UPI,260.1,0
+69,Female,18,17,Standard,785.89,13360.13,0,1,Quarterly,Net Banking,136.4,0
+70,Female,66,60,Standard,1073.67,64420.2,1,3,Monthly,Credit Card,215.7,0
+71,Female,57,64,Basic,958.62,61351.68,3,2,Monthly,UPI,260.9,0
+72,Female,49,35,Basic,883.48,30921.8,0,1,Monthly,Wallet,17.7,0
+73,Male,51,70,Standard,524.38,36706.6,2,0,Monthly,Credit Card,174.3,0
+74,Female,45,30,Basic,202.62,6078.6,1,1,Monthly,Credit Card,256.8,0
+75,Male,48,71,Basic,426.31,30268.01,2,1,Monthly,UPI,122.5,1
+76,Female,25,63,Premium,352.19,22187.97,0,0,Monthly,Wallet,94.2,0
+77,Female,56,28,Standard,783.81,21946.68,1,2,Monthly,Credit Card,239.7,0
+78,Female,43,60,Standard,995.94,59756.4,0,1,Monthly,UPI,104.1,0
+79,Male,51,37,Standard,477.01,17649.37,1,1,Monthly,Credit Card,5.9,0
+80,Female,20,22,Standard,1420.77,31256.94,0,2,Quarterly,Credit Card,288.1,0
+81,Male,67,68,Basic,208.69,14190.92,4,2,Quarterly,Credit Card,179.7,1
+82,Female,29,20,Basic,1203.99,24079.8,1,3,Yearly,Wallet,246.8,0
+83,Male,18,68,Basic,1012.77,68868.36,2,4,Monthly,Net Banking,248.5,0
+84,Female,61,64,Basic,685.62,43879.68,1,1,Monthly,Net Banking,24.6,0
+85,Male,22,17,Standard,265.64,4515.88,0,2,Monthly,Wallet,55.4,0
+86,Male,47,12,Basic,1015.73,12188.76,0,0,Monthly,Wallet,96.8,0
+87,Female,47,22,Standard,701.3,15428.6,2,2,Quarterly,UPI,99.6,0
+88,Male,34,17,Basic,1417.15,24091.55,0,2,Monthly,Credit Card,199.3,0
+89,Female,65,10,Basic,904.59,9045.9,0,2,Monthly,Wallet,188.8,1
+90,Female,64,65,Standard,1421.55,92400.75,2,2,Monthly,UPI,150.9,0
+91,Female,40,22,Basic,486.63,10705.86,1,0,Yearly,Net Banking,67.3,1
+92,Female,32,50,Basic,1143.44,57172.0,2,3,Yearly,Net Banking,117.7,0
+93,Female,54,14,Basic,1002.42,14033.88,1,2,Monthly,Net Banking,165.4,1
+94,Female,38,64,Basic,1161.23,74318.72,2,2,Monthly,Net Banking,143.1,1
+95,Female,31,47,Standard,479.07,22516.29,1,3,Quarterly,UPI,42.6,0
+96,Female,19,29,Basic,1064.49,30870.21,1,1,Yearly,Credit Card,196.6,0
+97,Female,28,36,Basic,847.45,30508.2,1,0,Monthly,UPI,26.6,0
+98,Female,68,52,Standard,1165.67,60614.84,3,3,Monthly,Credit Card,116.6,0
+99,Female,56,7,Basic,625.16,4376.12,2,0,Yearly,Net Banking,214.5,0
+100,Male,55,29,Premium,1357.07,39355.03,0,1,Quarterly,Wallet,10.9,0
+101,Male,51,11,Standard,309.59,3405.49,1,5,Monthly,Wallet,173.1,0
+102,Female,55,33,Standard,1249.35,41228.55,0,1,Monthly,Wallet,103.7,0
+103,Female,67,6,Standard,1319.72,7918.32,0,1,Yearly,Credit Card,7.6,0
+104,Female,51,32,Basic,1262.43,40397.76,0,5,Quarterly,Net Banking,61.2,0
+105,Female,35,51,Standard,866.54,44193.54,4,5,Quarterly,UPI,282.6,0
+106,Female,47,58,Basic,769.9,44654.2,0,4,Quarterly,Wallet,158.7,0
+107,Female,32,26,Premium,1495.14,38873.64,0,2,Monthly,Credit Card,299.2,0
+108,Female,44,46,Basic,497.92,22904.32,0,0,Quarterly,Wallet,159.8,0
+109,Female,68,29,Standard,910.94,26417.26,2,1,Monthly,UPI,165.5,0
+110,Male,51,4,Standard,1071.88,4287.52,1,5,Yearly,Net Banking,120.6,0
+111,Female,69,13,Basic,1111.13,14444.69,1,3,Monthly,UPI,96.5,1
+112,Male,55,39,Basic,465.23,18143.97,2,0,Yearly,Net Banking,79.2,0
+113,Female,50,15,Standard,1050.19,15752.85,1,1,Monthly,Net Banking,106.3,0
+114,Female,41,29,Premium,1263.88,36652.52,4,1,Monthly,Net Banking,140.7,1
+115,Male,32,29,Basic,265.02,7685.58,2,2,Monthly,Wallet,61.6,0
+116,Female,47,32,Standard,1384.98,44319.36,3,4,Quarterly,UPI,71.3,0
+117,Male,59,2,Premium,238.36,476.72,4,2,Quarterly,Wallet,85.1,0
+118,Female,68,47,Premium,662.76,31149.72,1,1,Quarterly,UPI,137.5,0
+119,Female,34,22,Basic,220.56,4852.32,1,1,Monthly,Credit Card,197.6,1
+120,Male,22,27,Standard,300.29,8107.83,1,3,Monthly,Credit Card,257.6,0
+121,Female,46,67,Basic,1384.52,92762.84,2,2,Yearly,UPI,89.7,0
+122,Male,21,56,Premium,661.32,37033.92,0,3,Quarterly,UPI,59.2,0
+123,Female,27,21,Standard,752.2,15796.2,0,2,Quarterly,UPI,116.8,0
+124,Male,34,47,Basic,479.95,22557.65,1,1,Quarterly,UPI,268.8,0
+125,Male,27,59,Standard,976.22,57596.98,0,0,Quarterly,Net Banking,7.9,0
+126,Female,34,6,Basic,973.24,5839.44,3,4,Monthly,Wallet,205.0,1
+127,Female,37,19,Premium,683.86,12993.34,0,5,Quarterly,Net Banking,145.8,0
+128,Male,41,57,Premium,632.95,36078.15,2,3,Quarterly,Wallet,52.5,0
+129,Female,22,69,Standard,1350.45,93181.05,1,0,Yearly,Wallet,99.7,0
+130,Female,51,3,Basic,698.27,2094.81,1,1,Quarterly,Wallet,71.4,1
+131,Female,23,1,Standard,841.55,841.55,0,4,Monthly,Net Banking,264.0,0
+132,Male,19,58,Basic,568.3,32961.4,0,3,Monthly,UPI,147.2,0
+133,Male,30,38,Basic,1222.8,46466.4,0,2,Monthly,Net Banking,171.1,1
+134,Male,60,15,Premium,716.68,10750.2,0,2,Monthly,Net Banking,180.1,0
+135,Male,60,34,Basic,867.69,29501.46,1,2,Quarterly,Wallet,193.7,0
+136,Male,65,61,Basic,529.36,32290.96,1,4,Yearly,Credit Card,151.2,0
+137,Male,28,35,Premium,1483.96,51938.6,0,1,Monthly,Credit Card,10.3,0
+138,Male,68,64,Basic,578.94,37052.16,1,0,Monthly,Net Banking,103.7,0
+139,Male,64,25,Basic,1201.97,30049.25,2,1,Yearly,Wallet,59.2,0
+140,Male,40,24,Premium,755.74,18137.76,0,5,Quarterly,Net Banking,205.6,0
+141,Female,33,12,Basic,468.08,5616.96,0,4,Monthly,Net Banking,21.7,0
+142,Male,48,18,Standard,1239.63,22313.34,0,1,Quarterly,UPI,171.3,0
+143,Female,28,15,Premium,633.69,9505.35,0,4,Monthly,Wallet,67.1,0
+144,Female,33,27,Premium,1324.75,35768.25,0,5,Monthly,Credit Card,284.9,0
+145,Female,25,60,Standard,1389.83,83389.8,0,0,Monthly,Credit Card,104.0,0
+146,Male,21,46,Basic,1317.77,60617.42,1,1,Monthly,Credit Card,100.9,1
+147,Male,57,17,Basic,245.51,4173.67,1,2,Monthly,Net Banking,277.4,1
+148,Male,21,53,Premium,1223.59,64850.27,0,1,Yearly,Wallet,128.1,0
+149,Male,42,8,Premium,734.74,5877.92,3,4,Quarterly,UPI,289.0,0
+150,Female,20,27,Standard,1335.84,36067.68,1,2,Monthly,Credit Card,12.1,0
+151,Male,49,46,Basic,1029.34,47349.64,0,2,Monthly,Wallet,95.4,0
+152,Male,20,50,Basic,1283.74,64187.0,1,3,Monthly,Credit Card,201.5,1
+153,Male,44,71,Basic,849.26,60297.46,0,1,Quarterly,UPI,267.8,1
+154,Male,46,3,Standard,895.53,2686.59,0,1,Quarterly,Wallet,80.6,1
+155,Male,49,64,Standard,387.7,24812.8,2,0,Monthly,Net Banking,279.5,0
+156,Female,67,44,Premium,1219.18,53643.92,0,4,Monthly,Net Banking,180.3,0
+157,Male,68,53,Standard,745.21,39496.13,0,2,Quarterly,Credit Card,241.3,0
+158,Female,36,24,Basic,850.1,20402.4,1,1,Monthly,Credit Card,122.2,1
+159,Male,38,60,Standard,1220.63,73237.8,1,2,Monthly,Wallet,67.6,0
+160,Female,22,3,Standard,978.5,2935.5,1,1,Quarterly,UPI,273.8,0
+161,Male,35,20,Standard,461.43,9228.6,2,1,Monthly,Credit Card,280.3,0
+162,Male,45,46,Standard,967.3,44495.8,1,0,Monthly,Wallet,151.8,0
+163,Female,59,15,Premium,729.92,10948.8,1,0,Monthly,UPI,6.9,1
+164,Female,39,25,Premium,810.38,20259.5,2,2,Monthly,Credit Card,37.4,0
+165,Female,38,71,Basic,236.8,16812.8,1,2,Yearly,Credit Card,174.0,0
+166,Male,23,17,Basic,473.04,8041.68,0,7,Yearly,Wallet,12.0,0
+167,Female,18,9,Standard,565.35,5088.15,1,3,Yearly,Credit Card,122.1,0
+168,Male,22,38,Basic,1126.85,42820.3,1,3,Quarterly,Net Banking,94.5,0
+169,Male,58,48,Basic,214.94,10317.12,0,5,Monthly,UPI,215.7,0
+170,Female,29,60,Basic,731.41,43884.6,0,3,Quarterly,UPI,21.4,0
+171,Female,43,63,Standard,1401.23,88277.49,0,1,Yearly,Net Banking,149.2,0
+172,Male,63,2,Basic,345.44,690.88,1,2,Monthly,Wallet,175.8,1
+173,Male,51,11,Standard,871.35,9584.85,2,0,Monthly,Net Banking,187.1,0
+174,Female,66,64,Premium,1222.48,78238.72,1,2,Quarterly,Net Banking,124.5,0
+175,Female,31,21,Basic,1425.29,29931.09,0,3,Quarterly,UPI,94.8,0
+176,Female,43,18,Basic,1170.81,21074.58,1,5,Monthly,Wallet,206.3,1
+177,Male,62,64,Basic,1136.74,72751.36,0,2,Monthly,Credit Card,255.0,0
+178,Male,44,38,Premium,1274.43,48428.34,2,1,Quarterly,Net Banking,209.6,0
+179,Male,26,32,Basic,780.06,24961.92,0,3,Monthly,Net Banking,280.0,1
+180,Male,43,11,Basic,1247.6,13723.6,0,0,Quarterly,Wallet,216.6,1
+181,Male,64,45,Basic,210.35,9465.75,1,3,Monthly,Net Banking,230.6,1
+182,Male,39,33,Standard,1401.93,46263.69,1,3,Yearly,Wallet,54.5,0
+183,Female,64,41,Standard,776.3,31828.3,1,5,Monthly,Credit Card,128.8,1
+184,Male,47,8,Standard,919.39,7355.12,3,2,Monthly,Wallet,148.1,1
+185,Male,60,11,Premium,531.35,5844.85,2,0,Monthly,Credit Card,80.6,1
+186,Male,65,51,Basic,1165.29,59429.79,1,1,Monthly,Wallet,160.9,1
+187,Female,34,41,Premium,299.63,12284.83,0,3,Quarterly,Net Banking,90.8,0
+188,Male,43,17,Basic,1334.43,22685.31,1,4,Monthly,Credit Card,207.8,0
+189,Male,53,46,Premium,1276.55,58721.3,1,4,Monthly,Net Banking,143.7,0
+190,Female,18,32,Standard,480.88,15388.16,3,3,Monthly,Credit Card,140.3,1
+191,Male,25,54,Premium,1252.12,67614.48,0,1,Quarterly,Wallet,295.2,0
+192,Male,66,20,Basic,1222.27,24445.4,1,0,Quarterly,Wallet,120.8,0
+193,Male,52,33,Basic,1021.88,33722.04,0,2,Monthly,Wallet,111.9,0
+194,Male,69,40,Basic,685.58,27423.2,1,3,Quarterly,UPI,99.0,0
+195,Male,32,32,Basic,552.95,17694.4,1,2,Quarterly,UPI,269.0,1
+196,Female,64,2,Basic,501.32,1002.64,0,1,Quarterly,Credit Card,151.5,1
+197,Female,39,33,Basic,614.19,20268.27,0,3,Monthly,UPI,182.0,0
+198,Female,31,30,Basic,1374.63,41238.9,4,1,Quarterly,Wallet,58.3,0
+199,Male,43,33,Standard,300.93,9930.69,1,3,Monthly,UPI,164.6,0
+200,Male,45,26,Premium,1277.53,33215.78,1,3,Monthly,UPI,86.0,0
+201,Male,40,22,Standard,653.56,14378.32,3,4,Monthly,Net Banking,220.5,1
+202,Female,31,66,Basic,878.08,57953.28,2,2,Monthly,Credit Card,250.6,0
+203,Male,41,38,Standard,1232.83,46847.54,0,1,Monthly,Credit Card,215.9,0
+204,Male,19,46,Basic,1349.69,62085.74,2,3,Yearly,Credit Card,220.4,1
+205,Female,62,15,Premium,648.22,9723.3,1,1,Monthly,UPI,156.2,1
+206,Male,43,44,Basic,800.4,35217.6,0,5,Monthly,Wallet,215.1,0
+207,Female,31,49,Standard,738.87,36204.63,1,2,Monthly,Net Banking,129.7,0
+208,Female,68,61,Premium,217.23,13251.03,0,3,Monthly,Credit Card,197.2,0
+209,Female,24,67,Premium,584.73,39176.91,0,0,Monthly,UPI,81.4,0
+210,Male,20,6,Standard,796.95,4781.7,1,1,Monthly,Wallet,25.6,1
+211,Male,64,9,Premium,734.42,6609.78,2,4,Monthly,Net Banking,127.0,0
+212,Male,40,6,Premium,1138.51,6831.06,1,1,Monthly,Net Banking,141.2,0
+213,Male,63,32,Standard,700.24,22407.68,3,5,Monthly,Credit Card,80.6,1
+214,Male,60,41,Standard,836.19,34283.79,1,0,Monthly,Credit Card,219.7,0
+215,Male,64,8,Standard,758.49,6067.92,0,2,Quarterly,Wallet,26.7,1
+216,Male,62,50,Standard,1162.81,58140.5,1,4,Quarterly,UPI,70.7,0
+217,Female,35,62,Standard,1321.86,81955.32,1,2,Quarterly,Wallet,225.8,0
+218,Male,55,62,Standard,891.46,55270.52,0,2,Monthly,Credit Card,134.0,0
+219,Female,52,7,Basic,1226.26,8583.82,1,2,Monthly,Wallet,213.1,1
+220,Male,68,4,Basic,585.82,2343.28,2,1,Yearly,UPI,172.4,0
+221,Male,32,6,Basic,903.78,5422.68,0,2,Monthly,Net Banking,285.5,1
+222,Male,42,58,Basic,648.8,37630.4,3,1,Monthly,Net Banking,181.3,1
+223,Female,54,22,Basic,738.46,16246.12,2,2,Monthly,Net Banking,9.4,1
+224,Female,45,26,Standard,1152.14,29955.64,0,2,Monthly,Net Banking,109.1,0
+225,Female,27,3,Basic,1346.16,4038.48,0,0,Monthly,Credit Card,47.2,0
+226,Female,56,41,Premium,357.94,14675.54,1,3,Quarterly,Credit Card,277.8,0
+227,Male,34,60,Basic,1025.03,61501.8,1,2,Monthly,UPI,35.7,1
+228,Female,56,14,Basic,956.79,13395.06,1,0,Yearly,UPI,119.4,0
+229,Male,39,12,Standard,353.94,4247.28,0,3,Monthly,UPI,71.7,0
+230,Male,43,12,Standard,475.46,5705.52,3,2,Monthly,UPI,254.8,0
+231,Female,61,13,Basic,604.3,7855.9,2,4,Yearly,Wallet,96.0,0
+232,Female,42,25,Premium,417.01,10425.25,0,0,Quarterly,UPI,297.6,0
+233,Female,34,45,Premium,516.85,23258.25,3,3,Monthly,Net Banking,16.4,0
+234,Female,30,19,Basic,547.88,10409.72,2,2,Monthly,Net Banking,42.8,0
+235,Female,37,55,Basic,636.38,35000.9,0,2,Quarterly,Net Banking,71.3,1
+236,Female,42,45,Premium,1174.21,52839.45,1,3,Monthly,Wallet,244.3,1
+237,Female,21,8,Standard,943.49,7547.92,0,2,Monthly,UPI,264.2,0
+238,Female,27,53,Standard,1482.12,78552.36,2,2,Quarterly,Net Banking,26.1,0
+239,Male,20,55,Premium,739.16,40653.8,1,1,Monthly,Net Banking,14.6,0
+240,Female,58,32,Basic,1180.02,37760.64,0,0,Monthly,Net Banking,224.6,0
+241,Female,62,51,Standard,1332.91,67978.41,1,1,Monthly,Net Banking,44.3,1
+242,Male,35,44,Basic,1082.67,47637.48,0,3,Monthly,Credit Card,44.2,0
+243,Female,64,70,Standard,735.42,51479.4,0,1,Yearly,UPI,11.6,0
+244,Male,53,18,Standard,1179.67,21234.06,0,2,Monthly,UPI,19.7,1
+245,Male,64,22,Standard,464.77,10224.94,1,0,Yearly,Wallet,82.8,0
+246,Female,39,37,Basic,625.82,23155.34,1,0,Monthly,Credit Card,24.2,1
+247,Male,51,56,Basic,910.69,50998.64,1,1,Monthly,Wallet,113.8,0
+248,Male,64,59,Standard,948.03,55933.77,1,1,Monthly,Net Banking,250.7,0
+249,Male,25,3,Standard,228.78,686.34,0,4,Quarterly,Wallet,101.3,0
+250,Male,57,28,Standard,1428.65,40002.2,1,2,Yearly,Net Banking,219.7,0
+251,Female,66,35,Basic,1105.62,38696.7,1,3,Monthly,Net Banking,32.7,0
+252,Male,61,61,Premium,844.41,51509.01,1,0,Monthly,UPI,199.5,0
+253,Female,36,54,Basic,1413.07,76305.78,1,1,Monthly,UPI,98.4,0
+254,Male,59,63,Premium,770.82,48561.66,0,2,Quarterly,UPI,226.2,0
+255,Male,58,7,Basic,1474.57,10321.99,2,2,Monthly,UPI,45.2,1
+256,Male,54,49,Standard,865.97,42432.53,0,6,Quarterly,UPI,269.9,0
+257,Male,23,31,Basic,348.57,10805.67,0,3,Monthly,Credit Card,76.6,0
+258,Female,69,58,Premium,1194.24,69265.92,0,2,Monthly,UPI,109.2,0
+259,Female,43,61,Standard,1082.57,66036.77,0,2,Monthly,Wallet,285.3,0
+260,Male,51,24,Basic,1204.88,28917.12,1,2,Monthly,Net Banking,175.7,0
+261,Male,62,20,Basic,1436.87,28737.4,0,2,Quarterly,UPI,112.9,0
+262,Female,23,37,Basic,1209.44,44749.28,1,4,Quarterly,Credit Card,285.1,0
+263,Male,54,4,Basic,994.74,3978.96,0,1,Monthly,Wallet,102.1,0
+264,Male,50,20,Premium,1314.5,26290.0,0,2,Monthly,Wallet,33.0,0
+265,Male,39,60,Standard,1075.22,64513.2,1,2,Monthly,Net Banking,299.1,0
+266,Female,38,24,Standard,730.55,17533.2,1,0,Quarterly,Wallet,84.0,0
+267,Female,23,50,Standard,1351.31,67565.5,1,2,Monthly,Wallet,256.1,1
+268,Female,23,49,Standard,488.47,23935.03,2,3,Monthly,Wallet,53.8,0
+269,Male,65,51,Basic,1129.03,57580.53,0,5,Monthly,Wallet,220.7,1
+270,Male,21,36,Basic,1346.03,48457.08,0,1,Monthly,Credit Card,159.7,0
+271,Female,47,66,Standard,1150.71,75946.86,0,0,Monthly,Net Banking,294.4,0
+272,Female,28,34,Premium,1106.46,37619.64,0,2,Monthly,UPI,168.1,0
+273,Female,47,36,Basic,1178.43,42423.48,0,2,Monthly,Wallet,12.4,0
+274,Female,48,6,Basic,804.57,4827.42,1,0,Quarterly,Credit Card,183.1,0
+275,Male,41,39,Standard,1336.42,52120.38,1,2,Monthly,Net Banking,47.9,0
+276,Female,26,42,Premium,464.47,19507.74,1,6,Monthly,UPI,240.6,1
+277,Male,20,58,Basic,365.6,21204.8,1,0,Quarterly,Net Banking,257.7,0
+278,Female,68,12,Standard,571.16,6853.92,3,0,Monthly,Credit Card,147.2,0
+279,Male,48,3,Premium,891.05,2673.15,0,3,Quarterly,Credit Card,236.1,1
+280,Female,57,18,Basic,863.73,15547.14,0,7,Monthly,Credit Card,47.8,1
+281,Female,54,40,Basic,1266.78,50671.2,1,1,Monthly,Wallet,150.2,1
+282,Female,53,21,Standard,725.94,15244.74,1,1,Monthly,Credit Card,121.2,0
+283,Female,41,15,Premium,829.65,12444.75,0,3,Monthly,UPI,185.3,0
+284,Male,48,26,Basic,217.38,5651.88,0,2,Quarterly,Wallet,18.1,0
+285,Female,23,8,Standard,732.66,5861.28,0,1,Monthly,Net Banking,226.9,0
+286,Male,19,42,Standard,1042.11,43768.62,2,2,Monthly,UPI,28.3,1
+287,Male,37,44,Standard,220.16,9687.04,3,4,Monthly,Wallet,198.7,0
+288,Male,45,14,Standard,565.15,7912.1,1,2,Monthly,Credit Card,10.4,0
+289,Male,28,2,Standard,470.34,940.68,0,3,Monthly,Net Banking,250.4,1
+290,Female,21,37,Standard,254.58,9419.46,1,2,Monthly,Credit Card,56.5,0
+291,Male,32,69,Standard,823.04,56789.76,0,4,Monthly,UPI,157.1,1
+292,Male,23,38,Standard,436.24,16577.12,0,3,Quarterly,UPI,82.1,0
+293,Male,66,41,Standard,1166.01,47806.41,0,2,Monthly,Wallet,218.2,0
+294,Female,47,62,Premium,1302.31,80743.22,1,1,Quarterly,UPI,99.8,0
+295,Female,55,60,Basic,909.26,54555.6,0,1,Yearly,Net Banking,218.8,0
+296,Female,68,14,Premium,1476.22,20667.08,1,2,Monthly,Wallet,89.0,0
+297,Female,19,2,Premium,785.62,1571.24,1,2,Quarterly,Net Banking,227.0,1
+298,Male,32,70,Basic,867.38,60716.6,1,2,Quarterly,Credit Card,14.0,1
+299,Male,28,17,Standard,1485.98,25261.66,3,0,Monthly,Net Banking,88.6,0
+300,Female,25,28,Standard,501.01,14028.28,1,0,Yearly,Net Banking,152.1,0
+301,Male,43,66,Basic,1425.31,94070.46,1,2,Monthly,UPI,18.3,1
+302,Male,68,35,Basic,255.69,8949.15,0,1,Monthly,Credit Card,59.9,0
+303,Male,62,5,Basic,780.3,3901.5,0,4,Quarterly,UPI,280.7,0
+304,Female,61,65,Basic,291.0,18915.0,0,3,Monthly,Credit Card,293.2,1
+305,Female,22,40,Premium,1148.01,45920.4,0,0,Monthly,Credit Card,223.2,1
+306,Male,23,56,Basic,990.93,55492.08,2,4,Monthly,Net Banking,79.4,0
+307,Female,43,36,Premium,1118.62,40270.32,1,3,Quarterly,UPI,81.9,0
+308,Female,21,45,Standard,686.82,30906.9,0,2,Quarterly,Net Banking,195.5,0
+309,Female,36,23,Premium,680.33,15647.59,0,1,Monthly,Net Banking,39.7,0
+310,Female,37,47,Standard,258.92,12169.24,0,0,Yearly,Net Banking,284.8,0
+311,Female,50,31,Basic,654.93,20302.83,1,4,Monthly,Credit Card,71.3,1
+312,Male,37,11,Standard,1408.07,15488.77,0,1,Monthly,UPI,299.9,0
+313,Female,66,10,Basic,692.99,6929.9,3,2,Quarterly,UPI,151.2,0
+314,Male,29,67,Standard,1280.78,85812.26,1,4,Quarterly,Net Banking,232.6,0
+315,Male,64,14,Premium,1295.02,18130.28,1,3,Monthly,Credit Card,5.6,0
+316,Female,18,10,Basic,685.21,6852.1,2,1,Monthly,UPI,267.2,1
+317,Male,43,1,Basic,1021.59,1021.59,2,0,Quarterly,Wallet,84.7,1
+318,Male,31,5,Standard,323.98,1619.9,1,1,Yearly,UPI,202.0,0
+319,Male,55,20,Premium,334.78,6695.6,1,3,Quarterly,Net Banking,242.9,0
+320,Female,54,8,Standard,263.25,2106.0,3,2,Monthly,Wallet,53.4,1
+321,Female,28,43,Basic,955.32,41078.76,0,0,Yearly,Credit Card,135.5,0
+322,Male,53,1,Standard,753.89,753.89,1,2,Yearly,Wallet,150.7,0
+323,Female,30,57,Basic,912.44,52009.08,1,3,Monthly,Wallet,97.1,0
+324,Female,60,64,Standard,877.4,56153.6,0,1,Quarterly,Net Banking,147.1,0
+325,Female,20,28,Premium,655.26,18347.28,1,3,Quarterly,UPI,98.7,0
+326,Female,50,37,Standard,1080.72,39986.64,0,1,Yearly,Credit Card,111.4,0
+327,Male,23,47,Premium,1186.05,55744.35,0,4,Quarterly,Wallet,202.5,0
+328,Male,67,37,Basic,219.02,8103.74,0,4,Quarterly,Net Banking,191.6,0
+329,Female,27,49,Standard,469.41,23001.09,0,0,Quarterly,UPI,73.5,0
+330,Female,22,44,Premium,1127.21,49597.24,0,0,Monthly,Wallet,269.8,0
+331,Male,40,56,Basic,702.61,39346.16,1,3,Quarterly,Net Banking,259.5,0
+332,Male,27,28,Premium,1061.23,29714.44,1,1,Quarterly,Net Banking,155.2,0
+333,Female,61,6,Basic,651.05,3906.3,2,1,Yearly,Net Banking,132.8,1
+334,Male,19,61,Standard,707.98,43186.78,4,3,Monthly,Credit Card,116.2,1
+335,Female,30,20,Premium,406.28,8125.6,2,2,Monthly,UPI,213.6,0
+336,Female,57,2,Standard,535.7,1071.4,0,0,Monthly,Wallet,203.1,1
+337,Male,19,37,Basic,987.04,36520.48,2,4,Quarterly,UPI,62.9,0
+338,Male,37,20,Standard,763.11,15262.2,0,1,Quarterly,UPI,203.1,0
+339,Female,18,26,Standard,1206.59,31371.34,0,3,Monthly,Wallet,79.5,0
+340,Female,54,29,Premium,1308.36,37942.44,2,2,Monthly,UPI,10.5,0
+341,Male,26,1,Standard,904.14,904.14,1,2,Monthly,Credit Card,211.3,1
+342,Female,34,35,Basic,1185.75,41501.25,0,1,Monthly,Wallet,195.2,1
+343,Male,26,70,Standard,598.98,41928.6,3,1,Quarterly,Wallet,126.2,0
+344,Female,28,59,Standard,739.46,43628.14,2,2,Monthly,Net Banking,160.1,0
+345,Male,32,69,Standard,1126.61,77736.09,2,1,Monthly,UPI,284.4,0
+346,Male,41,33,Standard,702.08,23168.64,0,1,Monthly,Wallet,180.6,1
+347,Male,55,51,Premium,965.06,49218.06,0,0,Monthly,Wallet,199.1,0
+348,Female,52,12,Standard,440.98,5291.76,1,1,Quarterly,Credit Card,23.9,0
+349,Female,47,20,Standard,979.7,19594.0,0,3,Monthly,Net Banking,54.0,0
+350,Male,48,53,Basic,1319.97,69958.41,0,3,Yearly,Wallet,93.8,0
+351,Female,66,43,Basic,1329.23,57156.89,0,2,Monthly,Credit Card,164.1,1
+352,Male,22,50,Basic,1141.65,57082.5,1,0,Monthly,Wallet,234.1,1
+353,Male,61,29,Basic,1169.48,33914.92,3,2,Monthly,Wallet,99.8,1
+354,Female,67,57,Standard,925.31,52742.67,4,4,Quarterly,Wallet,110.1,1
+355,Female,31,39,Standard,960.07,37442.73,0,3,Monthly,Credit Card,80.6,0
+356,Male,28,56,Standard,373.75,20930.0,0,0,Yearly,UPI,80.1,0
+357,Female,26,43,Premium,777.02,33411.86,1,1,Quarterly,Wallet,284.9,0
+358,Female,51,50,Premium,786.01,39300.5,0,3,Monthly,Wallet,192.5,0
+359,Male,29,23,Premium,1446.05,33259.15,1,2,Quarterly,UPI,51.0,0
+360,Male,52,44,Standard,760.41,33458.04,0,1,Yearly,Wallet,218.1,0
+361,Female,52,38,Standard,914.15,34737.7,1,3,Monthly,Net Banking,218.0,0
+362,Male,18,23,Standard,893.23,20544.29,1,2,Monthly,Wallet,201.6,0
+363,Male,57,45,Basic,1027.79,46250.55,2,1,Quarterly,Net Banking,44.7,0
+364,Female,39,52,Basic,1172.7,60980.4,1,2,Monthly,UPI,125.4,0
+365,Male,46,50,Premium,492.55,24627.5,4,1,Yearly,Credit Card,36.5,1
+366,Male,25,8,Premium,887.34,7098.72,0,2,Monthly,UPI,245.9,0
+367,Female,28,1,Basic,1273.69,1273.69,0,0,Monthly,Wallet,198.3,0
+368,Female,58,8,Standard,802.05,6416.4,3,3,Yearly,Net Banking,154.6,1
+369,Male,54,29,Premium,561.99,16297.71,1,3,Quarterly,Credit Card,106.2,0
+370,Male,31,5,Basic,1051.12,5255.6,0,1,Monthly,Wallet,59.4,1
+371,Female,47,47,Basic,1270.9,59732.3,1,2,Yearly,Credit Card,36.4,1
+372,Female,52,34,Premium,282.08,9590.72,2,2,Monthly,Credit Card,290.9,0
+373,Female,38,65,Standard,1209.83,78638.95,1,0,Monthly,Wallet,63.9,0
+374,Female,54,55,Basic,1268.14,69747.7,0,4,Yearly,UPI,22.7,0
+375,Male,22,43,Standard,799.98,34399.14,4,1,Monthly,Wallet,288.7,1
+376,Female,36,30,Premium,1478.3,44349.0,0,4,Monthly,Wallet,166.9,1
+377,Female,31,17,Standard,1222.72,20786.24,1,3,Monthly,UPI,240.0,0
+378,Male,43,26,Basic,1205.76,31349.76,0,4,Quarterly,Net Banking,17.9,1
+379,Female,21,8,Basic,1172.19,9377.52,0,1,Monthly,Wallet,172.2,0
+380,Male,42,47,Standard,395.79,18602.13,2,1,Monthly,Credit Card,122.5,1
+381,Female,62,46,Standard,482.4,22190.4,2,2,Quarterly,Wallet,232.7,0
+382,Female,59,68,Standard,803.19,54616.92,0,0,Monthly,Wallet,16.3,0
+383,Female,42,33,Basic,543.21,17925.93,1,1,Quarterly,Credit Card,123.5,0
+384,Male,35,1,Premium,739.81,739.81,1,4,Yearly,UPI,240.7,0
+385,Male,57,19,Basic,1355.0,25745.0,1,1,Monthly,Net Banking,159.2,0
+386,Female,25,31,Basic,1271.62,39420.22,4,1,Monthly,Net Banking,167.3,1
+387,Male,56,14,Basic,1019.05,14266.7,0,5,Monthly,Credit Card,33.7,0
+388,Male,57,53,Basic,1315.56,69724.68,1,3,Quarterly,UPI,44.0,0
+389,Male,31,48,Standard,1218.9,58507.2,1,4,Yearly,Wallet,204.7,0
+390,Male,49,69,Standard,757.68,52279.92,1,4,Monthly,Wallet,204.1,1
+391,Male,68,62,Basic,461.38,28605.56,2,2,Monthly,Wallet,293.8,1
+392,Male,55,66,Standard,868.46,57318.36,1,2,Monthly,Wallet,215.0,1
+393,Female,50,64,Basic,1157.1,74054.4,2,2,Monthly,Wallet,150.5,0
+394,Female,40,70,Standard,767.35,53714.5,1,2,Monthly,Credit Card,257.9,0
+395,Male,32,63,Premium,1066.8,67208.4,0,3,Quarterly,Wallet,35.8,0
+396,Female,50,33,Basic,322.63,10646.79,1,1,Monthly,Wallet,137.5,1
+397,Female,42,41,Standard,1172.41,48068.81,2,4,Quarterly,UPI,89.7,0
+398,Female,34,48,Basic,1256.53,60313.44,1,2,Monthly,Wallet,35.9,0
+399,Female,50,13,Basic,1118.89,14545.57,1,3,Monthly,Net Banking,230.2,0
+400,Male,64,31,Basic,1457.44,45180.64,0,2,Monthly,Credit Card,155.7,1
+401,Female,19,68,Standard,1274.65,86676.2,0,2,Quarterly,Credit Card,169.2,0
+402,Female,31,4,Standard,1374.02,5496.08,2,1,Monthly,Credit Card,126.3,1
+403,Male,57,19,Basic,1413.64,26859.16,2,1,Monthly,Net Banking,140.8,1
+404,Male,57,70,Premium,1241.75,86922.5,0,1,Monthly,Wallet,39.2,0
+405,Female,68,13,Standard,1076.54,13995.02,2,4,Quarterly,Credit Card,203.5,0
+406,Female,56,23,Premium,207.43,4770.89,4,1,Monthly,Net Banking,132.6,1
+407,Female,68,1,Standard,805.57,805.57,0,2,Monthly,UPI,245.9,1
+408,Female,23,54,Standard,942.51,50895.54,0,1,Quarterly,Wallet,62.9,0
+409,Female,23,71,Basic,595.24,42262.04,1,2,Quarterly,Net Banking,65.5,0
+410,Female,20,15,Basic,613.54,9203.1,1,3,Monthly,Wallet,195.5,1
+411,Male,24,65,Premium,1449.51,94218.15,0,2,Quarterly,UPI,254.6,0
+412,Female,68,71,Basic,1359.22,96504.62,1,2,Monthly,Net Banking,144.3,1
+413,Female,25,15,Premium,1303.93,19558.95,0,0,Quarterly,Wallet,219.5,0
+414,Male,59,21,Standard,727.82,15284.22,1,0,Yearly,Net Banking,299.8,0
+415,Male,69,19,Basic,217.81,4138.39,0,0,Monthly,Credit Card,297.1,0
+416,Male,32,60,Basic,304.29,18257.4,0,3,Quarterly,Wallet,224.6,0
+417,Male,64,33,Basic,605.86,19993.38,2,3,Monthly,Net Banking,223.2,0
+418,Female,46,49,Premium,220.47,10803.03,3,2,Monthly,Credit Card,78.0,0
+419,Female,50,35,Standard,222.29,7780.15,3,0,Quarterly,UPI,250.9,1
+420,Female,69,44,Basic,1391.58,61229.52,2,3,Yearly,Wallet,124.5,0
+421,Female,47,11,Basic,1118.01,12298.11,2,1,Monthly,Wallet,288.8,1
+422,Female,56,66,Basic,601.64,39708.24,1,1,Monthly,UPI,29.0,0
+423,Female,44,46,Standard,372.44,17132.24,0,2,Monthly,Credit Card,133.6,0
+424,Male,53,9,Basic,865.13,7786.17,1,3,Yearly,UPI,169.0,0
+425,Female,46,3,Premium,206.95,620.85,0,2,Quarterly,Wallet,124.5,0
+426,Male,55,26,Basic,1419.94,36918.44,0,2,Quarterly,Net Banking,67.1,0
+427,Male,50,48,Basic,739.26,35484.48,1,3,Monthly,Credit Card,179.9,1
+428,Female,54,66,Standard,723.04,47720.64,0,6,Yearly,Credit Card,228.0,0
+429,Male,44,70,Standard,707.77,49543.9,4,2,Quarterly,Credit Card,195.2,1
+430,Female,50,28,Premium,290.13,8123.64,1,0,Quarterly,UPI,74.2,0
+431,Male,21,26,Standard,1029.82,26775.32,2,3,Monthly,UPI,220.8,0
+432,Female,39,25,Basic,1152.9,28822.5,1,0,Monthly,Net Banking,80.8,0
+433,Male,19,12,Standard,1078.96,12947.52,2,1,Monthly,Net Banking,56.7,0
+434,Female,27,5,Basic,379.97,1899.85,1,0,Quarterly,Credit Card,208.7,0
+435,Female,22,48,Basic,952.49,45719.52,4,5,Monthly,Net Banking,253.6,1
+436,Female,27,37,Premium,940.33,34792.21,2,0,Quarterly,UPI,147.1,0
+437,Female,50,44,Standard,1328.93,58472.92,2,7,Monthly,Net Banking,161.8,0
+438,Female,55,15,Premium,692.87,10393.05,1,2,Quarterly,UPI,94.3,0
+439,Male,30,43,Standard,682.93,29365.99,2,4,Monthly,Net Banking,150.9,0
+440,Male,48,48,Standard,1004.09,48196.32,2,4,Monthly,Wallet,43.9,0
+441,Male,64,70,Basic,1022.99,71609.3,2,1,Monthly,UPI,287.0,1
+442,Female,53,46,Basic,810.07,37263.22,0,2,Monthly,Wallet,241.1,1
+443,Male,62,43,Premium,775.98,33367.14,1,1,Monthly,UPI,202.1,0
+444,Female,41,21,Basic,842.39,17690.19,1,2,Quarterly,Net Banking,163.8,0
+445,Female,69,23,Premium,1319.36,30345.28,1,0,Monthly,Wallet,238.7,0
+446,Male,32,47,Standard,799.52,37577.44,1,3,Monthly,Net Banking,151.0,0
+447,Male,46,15,Basic,1421.91,21328.65,2,2,Monthly,UPI,93.5,1
+448,Female,25,25,Standard,855.2,21380.0,0,2,Monthly,Wallet,52.3,1
+449,Male,22,36,Standard,1433.96,51622.56,0,3,Monthly,Credit Card,196.0,0
+450,Female,46,51,Basic,1282.68,65416.68,0,0,Monthly,Net Banking,279.2,0
+451,Female,64,15,Premium,671.16,10067.4,1,2,Monthly,UPI,50.3,0
+452,Female,21,68,Standard,1322.73,89945.64,1,0,Monthly,Wallet,58.1,0
+453,Female,29,21,Basic,343.08,7204.68,1,0,Quarterly,Net Banking,132.9,1
+454,Female,62,13,Standard,1402.56,18233.28,0,4,Monthly,Wallet,243.0,0
+455,Male,19,19,Premium,1021.14,19401.66,1,1,Monthly,Net Banking,91.7,1
+456,Male,44,34,Basic,270.71,9204.14,0,2,Monthly,Net Banking,79.9,0
+457,Female,48,68,Premium,1037.53,70552.04,1,0,Yearly,Net Banking,187.9,0
+458,Female,68,52,Basic,1466.52,76259.04,1,0,Quarterly,Wallet,163.0,0
+459,Male,68,27,Standard,290.74,7849.98,1,4,Quarterly,Wallet,22.8,0
+460,Male,53,29,Standard,921.09,26711.61,0,0,Monthly,Net Banking,29.0,0
+461,Female,53,28,Basic,1172.13,32819.64,2,2,Quarterly,Credit Card,194.7,0
+462,Male,43,35,Basic,1253.34,43866.9,1,1,Monthly,Credit Card,142.2,1
+463,Female,60,8,Standard,737.98,5903.84,1,2,Monthly,Credit Card,291.4,1
+464,Male,44,16,Standard,465.42,7446.72,0,2,Quarterly,UPI,205.2,0
+465,Female,22,36,Standard,255.04,9181.44,1,2,Monthly,Credit Card,8.0,0
+466,Male,37,30,Basic,953.64,28609.2,1,2,Yearly,Wallet,146.9,0
+467,Female,28,18,Premium,788.78,14198.04,0,2,Monthly,Credit Card,127.3,0
+468,Male,27,2,Standard,1433.37,2866.74,1,1,Yearly,Wallet,36.5,0
+469,Male,57,49,Premium,278.79,13660.71,1,1,Quarterly,UPI,277.3,0
+470,Female,55,4,Basic,1091.01,4364.04,1,1,Monthly,Wallet,242.5,0
+471,Male,23,7,Standard,232.46,1627.22,0,5,Monthly,Wallet,72.9,1
+472,Female,25,39,Standard,422.86,16491.54,2,3,Monthly,Wallet,80.5,0
+473,Male,40,13,Basic,789.65,10265.45,2,2,Yearly,Credit Card,14.4,0
+474,Female,64,31,Standard,791.33,24531.23,1,1,Monthly,Net Banking,92.5,1
+475,Male,43,71,Basic,1091.41,77490.11,5,3,Quarterly,Wallet,177.5,1
+476,Female,63,63,Standard,1383.28,87146.64,0,0,Yearly,Credit Card,129.1,0
+477,Male,60,56,Standard,1030.74,57721.44,1,2,Monthly,Credit Card,290.9,0
+478,Female,29,42,Basic,1439.6,60463.2,1,1,Monthly,Credit Card,21.5,1
+479,Male,43,61,Standard,1346.1,82112.1,0,3,Quarterly,Net Banking,179.5,0
+480,Female,30,42,Standard,959.85,40313.7,0,1,Monthly,Net Banking,258.2,0
+481,Female,57,56,Basic,1283.93,71900.08,1,0,Monthly,Net Banking,146.8,1
+482,Female,35,36,Premium,1035.35,37272.6,1,2,Monthly,Net Banking,5.9,1
+483,Male,42,68,Premium,302.13,20544.84,1,3,Monthly,UPI,76.6,0
+484,Female,50,7,Standard,1162.73,8139.11,0,1,Quarterly,Net Banking,100.5,0
+485,Male,64,54,Basic,323.38,17462.52,0,2,Monthly,Net Banking,290.0,0
+486,Female,57,1,Standard,972.31,972.31,1,1,Yearly,Net Banking,274.0,1
+487,Male,60,44,Standard,1113.43,48990.92,0,3,Monthly,Wallet,285.0,0
+488,Female,29,45,Basic,286.49,12892.05,1,2,Quarterly,Wallet,248.6,0
+489,Male,61,47,Standard,500.03,23501.41,1,1,Monthly,Net Banking,108.7,0
+490,Male,53,13,Standard,1390.37,18074.81,2,4,Monthly,UPI,272.2,0
+491,Female,65,22,Standard,1001.21,22026.62,2,0,Monthly,Wallet,294.6,0
+492,Male,21,21,Standard,520.17,10923.57,2,7,Quarterly,Credit Card,108.3,0
+493,Male,22,9,Standard,1097.88,9880.92,1,2,Yearly,Wallet,81.9,0
+494,Female,54,26,Premium,975.81,25371.06,0,4,Monthly,Credit Card,166.3,0
+495,Male,25,9,Basic,852.05,7668.45,0,3,Monthly,Wallet,60.2,1
+496,Male,59,15,Standard,1469.04,22035.6,0,3,Monthly,Net Banking,14.6,1
+497,Male,66,10,Premium,1088.49,10884.9,1,6,Monthly,Wallet,284.0,1
+498,Female,45,42,Standard,688.07,28898.94,3,1,Quarterly,Net Banking,278.1,0
+499,Male,48,24,Standard,1240.1,29762.4,2,0,Quarterly,Net Banking,53.0,0
+500,Female,26,49,Standard,1349.96,66148.04,0,3,Monthly,Wallet,125.3,0
+501,Male,68,26,Standard,362.79,9432.54,2,1,Yearly,Credit Card,250.2,0
+502,Male,46,37,Premium,460.72,17046.64,0,0,Monthly,Credit Card,200.0,0
+503,Male,31,68,Standard,481.1,32714.8,0,0,Quarterly,Wallet,121.5,0
+504,Female,57,50,Premium,1098.58,54929.0,2,1,Monthly,Net Banking,224.5,0
+505,Male,58,24,Basic,983.95,23614.8,0,3,Monthly,Credit Card,269.6,0
+506,Male,39,19,Basic,1004.69,19089.11,1,5,Monthly,UPI,278.2,1
+507,Female,28,60,Standard,1423.01,85380.6,0,1,Monthly,Net Banking,116.8,0
+508,Male,40,39,Basic,1208.68,47138.52,1,4,Quarterly,Wallet,56.2,0
+509,Female,18,18,Basic,366.32,6593.76,0,3,Quarterly,Net Banking,274.3,0
+510,Female,63,19,Basic,651.76,12383.44,1,2,Monthly,UPI,32.3,0
+511,Male,54,36,Basic,766.01,27576.36,3,2,Quarterly,UPI,217.9,0
+512,Female,38,55,Basic,714.75,39311.25,0,1,Monthly,Credit Card,46.4,0
+513,Male,43,69,Premium,1070.1,73836.9,0,3,Quarterly,UPI,119.9,0
+514,Female,63,47,Basic,1359.46,63894.62,2,3,Monthly,Net Banking,126.4,1
+515,Female,53,49,Standard,597.87,29295.63,3,6,Monthly,Credit Card,51.8,0
+516,Male,40,33,Standard,917.44,30275.52,0,2,Monthly,UPI,277.2,1
+517,Female,18,21,Premium,1226.23,25750.83,1,2,Monthly,Credit Card,5.8,0
+518,Female,68,22,Basic,741.08,16303.76,0,2,Quarterly,Credit Card,268.7,0
+519,Female,57,48,Premium,418.55,20090.4,2,2,Monthly,Wallet,265.7,0
+520,Female,32,37,Standard,817.44,30245.28,2,3,Monthly,Credit Card,98.5,0
+521,Female,38,15,Standard,271.79,4076.85,0,3,Monthly,Credit Card,212.8,1
+522,Male,64,35,Standard,1425.1,49878.5,0,2,Quarterly,UPI,79.6,0
+523,Female,26,71,Premium,297.27,21106.17,3,3,Quarterly,Net Banking,228.8,0
+524,Male,26,32,Basic,769.99,24639.68,0,2,Monthly,Net Banking,170.5,0
+525,Female,27,11,Standard,888.85,9777.35,0,1,Monthly,UPI,93.6,1
+526,Male,69,10,Standard,1480.89,14808.9,1,1,Quarterly,Net Banking,123.1,0
+527,Male,43,57,Standard,415.83,23702.31,0,2,Monthly,Credit Card,208.5,0
+528,Female,58,25,Premium,348.76,8719.0,1,1,Monthly,Wallet,272.3,1
+529,Female,52,2,Basic,211.32,422.64,0,3,Monthly,Credit Card,43.6,0
+530,Female,69,64,Premium,402.24,25743.36,1,3,Monthly,Credit Card,173.6,0
+531,Male,42,35,Basic,469.45,16430.75,0,1,Monthly,Wallet,79.9,0
+532,Female,43,7,Basic,1019.76,7138.32,2,4,Quarterly,UPI,241.4,0
+533,Male,28,18,Basic,485.62,8741.16,1,4,Monthly,Credit Card,25.7,1
+534,Male,55,67,Basic,226.68,15187.56,2,2,Quarterly,Credit Card,208.2,0
+535,Male,19,42,Standard,1274.6,53533.2,1,2,Monthly,UPI,56.6,0
+536,Female,24,39,Basic,675.27,26335.53,0,5,Quarterly,Credit Card,180.9,0
+537,Female,35,41,Basic,659.81,27052.21,1,2,Monthly,Credit Card,251.5,0
+538,Male,44,24,Premium,593.22,14237.28,0,5,Monthly,Net Banking,227.7,1
+539,Male,51,60,Premium,1467.99,88079.4,3,3,Monthly,UPI,227.1,1
+540,Female,44,46,Premium,421.15,19372.9,1,3,Monthly,Credit Card,157.8,0
+541,Male,34,19,Premium,1367.71,25986.49,0,1,Monthly,Credit Card,267.8,0
+542,Female,60,68,Standard,1209.84,82269.12,1,3,Quarterly,Wallet,178.5,0
+543,Male,61,42,Basic,299.42,12575.64,0,0,Monthly,Wallet,275.7,1
+544,Female,68,32,Basic,1482.75,47448.0,1,3,Yearly,Wallet,166.2,0
+545,Male,41,39,Standard,552.78,21558.42,0,1,Yearly,Credit Card,154.3,0
+546,Female,42,36,Basic,328.16,11813.76,0,0,Monthly,Credit Card,70.6,0
+547,Male,24,36,Standard,1278.11,46011.96,1,1,Yearly,Wallet,165.7,0
+548,Female,69,3,Basic,1118.68,3356.04,2,5,Monthly,Net Banking,46.5,1
+549,Female,23,8,Basic,1002.38,8019.04,1,0,Monthly,Net Banking,261.6,0
+550,Male,41,70,Standard,402.78,28194.6,0,3,Monthly,Net Banking,204.4,0
+551,Male,50,41,Standard,822.04,33703.64,1,1,Monthly,Net Banking,298.1,0
+552,Female,66,68,Standard,1214.72,82600.96,2,2,Monthly,UPI,32.2,0
+553,Male,46,13,Standard,594.71,7731.23,1,3,Yearly,Wallet,76.0,0
+554,Female,60,49,Basic,605.2,29654.8,1,4,Monthly,Credit Card,263.8,1
+555,Male,39,60,Basic,204.08,12244.8,2,0,Monthly,Wallet,121.6,0
+556,Female,43,2,Premium,426.52,853.04,0,1,Quarterly,Net Banking,142.6,1
+557,Female,45,60,Standard,1338.03,80281.8,1,4,Monthly,Credit Card,258.9,0
+558,Female,67,5,Basic,774.27,3871.35,1,1,Monthly,UPI,158.9,1
+559,Female,38,44,Premium,1479.5,65098.0,1,4,Quarterly,Wallet,62.1,0
+560,Female,66,27,Basic,714.42,19289.34,2,5,Monthly,Credit Card,268.1,1
+561,Female,24,32,Standard,1129.74,36151.68,2,1,Monthly,Credit Card,14.2,1
+562,Male,34,21,Basic,566.49,11896.29,1,2,Monthly,Net Banking,269.1,0
+563,Male,37,8,Standard,672.95,5383.6,0,3,Monthly,Net Banking,19.9,1
+564,Male,58,50,Standard,447.94,22397.0,2,1,Yearly,Wallet,201.4,0
+565,Female,66,67,Basic,651.18,43629.06,0,3,Quarterly,UPI,26.1,0
+566,Female,37,44,Premium,911.41,40102.04,0,2,Monthly,Credit Card,213.3,0
+567,Female,39,58,Standard,1489.3,86379.4,0,3,Monthly,Net Banking,15.0,0
+568,Female,45,3,Basic,1063.46,3190.38,0,1,Monthly,Wallet,253.5,0
+569,Male,57,70,Basic,459.02,32131.4,0,0,Yearly,Net Banking,142.5,0
+570,Male,66,2,Basic,258.45,516.9,1,3,Monthly,Wallet,32.6,1
+571,Female,24,44,Basic,364.26,16027.44,0,0,Monthly,Net Banking,213.5,1
+572,Male,18,2,Standard,931.32,1862.64,1,1,Quarterly,UPI,149.3,0
+573,Male,49,35,Premium,1194.71,41814.85,0,0,Yearly,Credit Card,61.3,0
+574,Female,30,30,Standard,1422.54,42676.2,0,2,Monthly,Net Banking,9.6,0
+575,Male,47,8,Basic,220.57,1764.56,0,1,Monthly,Credit Card,128.3,0
+576,Female,40,22,Basic,879.59,19350.98,1,1,Monthly,Wallet,30.3,0
+577,Male,68,44,Basic,812.13,35733.72,3,1,Monthly,UPI,32.8,1
+578,Female,36,58,Standard,1052.87,61066.46,2,0,Quarterly,Credit Card,83.9,0
+579,Female,49,36,Standard,927.45,33388.2,1,1,Quarterly,Net Banking,191.0,0
+580,Female,47,69,Basic,1093.15,75427.35,0,0,Quarterly,Credit Card,161.3,0
+581,Female,46,31,Standard,1055.51,32720.81,0,2,Monthly,Credit Card,25.4,0
+582,Male,66,47,Premium,352.12,16549.64,2,3,Monthly,Wallet,290.7,0
+583,Female,62,55,Standard,1239.63,68179.65,1,2,Monthly,UPI,266.7,0
+584,Female,46,62,Premium,360.2,22332.4,1,3,Monthly,UPI,81.5,0
+585,Female,47,30,Standard,1108.09,33242.7,0,2,Quarterly,Credit Card,41.1,0
+586,Male,33,55,Standard,740.99,40754.45,2,1,Monthly,Credit Card,283.0,0
+587,Female,57,16,Standard,868.01,13888.16,1,3,Monthly,Wallet,141.0,0
+588,Male,36,12,Standard,1374.29,16491.48,1,0,Monthly,Credit Card,96.8,0
+589,Female,35,17,Basic,1356.85,23066.45,1,0,Monthly,Wallet,149.7,1
+590,Male,18,16,Basic,1263.21,20211.36,3,1,Monthly,UPI,233.0,0
+591,Male,31,12,Basic,863.19,10358.28,0,4,Quarterly,UPI,54.7,0
+592,Female,68,8,Standard,1157.11,9256.88,2,4,Monthly,Wallet,231.4,0
+593,Male,64,3,Basic,866.77,2600.31,1,0,Quarterly,Credit Card,226.1,1
+594,Female,67,16,Premium,1330.49,21287.84,3,7,Monthly,UPI,164.1,1
+595,Female,19,30,Standard,723.61,21708.3,0,3,Monthly,Net Banking,260.4,1
+596,Female,45,23,Standard,1461.31,33610.13,1,3,Yearly,Wallet,44.0,0
+597,Male,66,5,Basic,1412.02,7060.1,0,4,Monthly,UPI,180.7,1
+598,Male,67,65,Premium,1164.08,75665.2,1,2,Quarterly,UPI,137.6,0
+599,Female,47,30,Premium,563.24,16897.2,2,3,Monthly,UPI,129.6,0
+600,Female,55,21,Standard,371.15,7794.15,1,1,Monthly,Net Banking,79.5,0
+601,Male,68,70,Basic,1311.11,91777.7,1,3,Quarterly,Net Banking,114.8,0
+602,Female,21,22,Standard,414.89,9127.58,1,1,Yearly,Net Banking,36.9,0
+603,Female,18,32,Basic,1310.54,41937.28,1,1,Quarterly,Credit Card,79.2,0
+604,Female,25,33,Basic,837.99,27653.67,0,2,Monthly,Wallet,85.2,0
+605,Male,46,16,Standard,728.52,11656.32,3,2,Monthly,Credit Card,217.6,0
+606,Male,56,38,Standard,1374.15,52217.7,0,2,Quarterly,Net Banking,19.3,0
+607,Male,20,14,Standard,985.01,13790.14,0,2,Quarterly,Wallet,197.1,0
+608,Female,49,36,Premium,949.6,34185.6,1,3,Monthly,Credit Card,70.3,0
+609,Female,27,23,Standard,926.4,21307.2,0,3,Monthly,Credit Card,29.1,0
+610,Female,27,66,Standard,682.52,45046.32,2,4,Quarterly,Credit Card,93.7,0
+611,Male,36,2,Basic,1221.34,2442.68,0,3,Monthly,Net Banking,71.2,0
+612,Female,63,65,Premium,528.64,34361.6,1,2,Monthly,UPI,167.8,1
+613,Female,51,67,Basic,1420.56,95177.52,2,1,Yearly,Wallet,110.4,0
+614,Female,50,52,Premium,1362.18,70833.36,2,2,Monthly,Net Banking,290.0,0
+615,Female,40,62,Premium,638.72,39600.64,0,4,Monthly,Wallet,289.2,0
+616,Male,45,23,Basic,1148.3,26410.9,1,1,Quarterly,Net Banking,135.9,0
+617,Male,49,26,Standard,945.19,24574.94,0,2,Monthly,Credit Card,239.6,1
+618,Female,67,68,Premium,638.94,43447.92,0,1,Quarterly,Credit Card,8.9,0
+619,Male,24,55,Standard,1485.08,81679.4,0,1,Monthly,UPI,166.6,0
+620,Male,46,6,Premium,232.81,1396.86,1,2,Monthly,UPI,224.3,0
+621,Female,25,35,Premium,528.44,18495.4,0,1,Monthly,Wallet,69.0,0
+622,Female,18,22,Standard,876.1,19274.2,1,4,Yearly,UPI,23.0,0
+623,Male,20,43,Basic,878.54,37777.22,0,1,Monthly,UPI,51.0,0
+624,Female,41,15,Premium,965.61,14484.15,3,2,Monthly,Wallet,135.3,1
+625,Male,40,60,Standard,1177.18,70630.8,0,1,Monthly,Net Banking,154.4,0
+626,Female,25,12,Basic,1010.52,12126.24,0,4,Monthly,UPI,117.4,0
+627,Male,64,49,Basic,980.37,48038.13,1,3,Monthly,Net Banking,134.8,1
+628,Female,54,42,Standard,269.57,11321.94,0,1,Monthly,Credit Card,143.7,0
+629,Male,20,38,Premium,689.49,26200.62,1,2,Monthly,UPI,232.0,0
+630,Male,68,45,Premium,501.67,22575.15,1,0,Monthly,Credit Card,36.0,0
+631,Male,50,35,Standard,544.98,19074.3,2,3,Quarterly,Credit Card,231.8,0
+632,Female,45,30,Basic,920.64,27619.2,0,3,Quarterly,Net Banking,208.1,0
+633,Male,64,30,Basic,459.36,13780.8,2,2,Monthly,Wallet,223.8,0
+634,Male,25,6,Premium,582.13,3492.78,0,4,Monthly,UPI,221.7,1
+635,Female,51,67,Basic,508.21,34050.07,2,2,Quarterly,Net Banking,143.8,0
+636,Female,52,7,Basic,1433.05,10031.35,1,3,Quarterly,Wallet,67.4,1
+637,Male,49,52,Basic,1428.07,74259.64,1,1,Monthly,Credit Card,163.3,1
+638,Male,41,14,Standard,992.92,13900.88,3,1,Yearly,UPI,287.6,0
+639,Female,31,15,Premium,1401.88,21028.2,0,4,Monthly,Credit Card,178.6,0
+640,Female,49,21,Basic,1221.56,25652.76,0,3,Monthly,Credit Card,8.3,1
+641,Female,63,35,Standard,966.93,33842.55,2,1,Monthly,UPI,22.6,0
+642,Female,60,66,Standard,208.37,13752.42,0,2,Yearly,Wallet,297.9,0
+643,Female,33,2,Premium,1204.27,2408.54,0,1,Monthly,Wallet,26.2,0
+644,Male,21,35,Basic,1113.23,38963.05,1,1,Quarterly,UPI,18.6,0
+645,Female,69,20,Standard,999.83,19996.6,1,1,Monthly,UPI,109.1,0
+646,Male,54,10,Basic,1188.55,11885.5,2,0,Monthly,Net Banking,290.9,1
+647,Male,38,25,Premium,866.8,21670.0,0,3,Monthly,Net Banking,99.0,0
+648,Male,31,66,Standard,1115.31,73610.46,1,1,Quarterly,Credit Card,125.9,0
+649,Female,48,25,Basic,1415.72,35393.0,1,3,Monthly,UPI,192.1,1
+650,Male,65,54,Standard,688.55,37181.7,0,2,Monthly,Wallet,12.1,0
+651,Male,35,33,Standard,1120.56,36978.48,0,1,Monthly,Credit Card,269.8,1
+652,Female,24,36,Basic,818.39,29462.04,1,5,Yearly,Credit Card,158.2,1
+653,Male,27,14,Premium,1076.72,15074.08,0,0,Monthly,Credit Card,142.7,0
+654,Male,24,65,Basic,1191.76,77464.4,1,6,Monthly,Credit Card,258.9,1
+655,Female,50,54,Standard,259.09,13990.86,0,2,Monthly,Wallet,286.2,0
+656,Male,40,52,Standard,1040.58,54110.16,1,2,Yearly,Credit Card,129.9,0
+657,Male,38,3,Standard,494.76,1484.28,0,0,Yearly,UPI,55.9,0
+658,Male,36,41,Basic,1071.04,43912.64,2,3,Quarterly,Net Banking,245.6,0
+659,Female,65,6,Premium,808.83,4852.98,3,0,Monthly,Wallet,124.0,0
+660,Female,36,25,Standard,1205.62,30140.5,0,1,Monthly,UPI,281.0,0
+661,Female,53,13,Standard,360.42,4685.46,0,0,Yearly,UPI,285.2,0
+662,Male,46,8,Standard,1014.22,8113.76,0,2,Monthly,UPI,38.9,1
+663,Male,35,21,Standard,562.01,11802.21,2,0,Monthly,Net Banking,287.2,0
+664,Female,19,68,Basic,1308.88,89003.84,0,2,Monthly,Net Banking,113.6,1
+665,Male,18,25,Basic,1406.9,35172.5,1,2,Yearly,Net Banking,195.6,0
+666,Male,64,68,Premium,1495.32,101681.76,1,2,Monthly,UPI,15.3,0
+667,Female,22,45,Basic,1234.81,55566.45,2,2,Monthly,Net Banking,267.2,0
+668,Female,37,60,Standard,1179.85,70791.0,2,5,Quarterly,Credit Card,194.3,0
+669,Male,28,12,Premium,480.15,5761.8,2,1,Monthly,Net Banking,194.8,0
+670,Male,59,32,Basic,636.81,20377.92,1,3,Monthly,Wallet,271.1,0
+671,Male,19,13,Standard,805.39,10470.07,2,1,Yearly,UPI,155.0,0
+672,Female,20,31,Standard,1205.4,37367.4,1,1,Yearly,UPI,126.1,0
+673,Female,40,20,Standard,1389.46,27789.2,3,1,Quarterly,Credit Card,260.5,0
+674,Female,29,18,Basic,445.88,8025.84,1,1,Quarterly,Net Banking,224.0,0
+675,Female,37,60,Basic,1399.08,83944.8,1,3,Monthly,Net Banking,284.9,0
+676,Male,22,63,Standard,1104.31,69571.53,0,1,Yearly,Wallet,282.3,0
+677,Female,54,6,Premium,994.0,5964.0,0,3,Monthly,Credit Card,117.8,1
+678,Female,55,32,Standard,459.79,14713.28,0,1,Quarterly,Wallet,136.9,0
+679,Female,47,43,Standard,272.18,11703.74,0,3,Yearly,Wallet,80.5,0
+680,Female,26,2,Basic,939.0,1878.0,2,0,Quarterly,UPI,199.9,1
+681,Female,51,60,Standard,1046.97,62818.2,1,2,Quarterly,UPI,112.5,0
+682,Male,61,23,Basic,474.02,10902.46,0,5,Quarterly,Net Banking,236.9,0
+683,Male,52,31,Premium,923.39,28625.09,3,2,Monthly,Net Banking,40.9,1
+684,Female,69,5,Premium,1313.44,6567.2,1,0,Quarterly,Wallet,39.3,0
+685,Male,39,34,Standard,1285.59,43710.06,2,3,Monthly,Net Banking,65.3,0
+686,Female,61,10,Premium,1405.56,14055.6,1,3,Monthly,Wallet,29.9,0
+687,Female,41,2,Basic,675.65,1351.3,1,2,Monthly,Net Banking,187.9,1
+688,Male,34,11,Standard,613.46,6748.06,2,4,Monthly,Net Banking,48.5,0
+689,Male,27,50,Basic,1174.25,58712.5,1,1,Quarterly,UPI,52.2,1
+690,Female,47,31,Premium,760.45,23573.95,0,2,Yearly,UPI,9.2,0
+691,Female,63,56,Basic,313.81,17573.36,0,3,Monthly,UPI,235.7,1
+692,Female,40,9,Standard,567.64,5108.76,0,0,Monthly,UPI,244.6,1
+693,Male,49,21,Premium,744.16,15627.36,1,2,Monthly,Credit Card,52.8,0
+694,Female,34,28,Basic,580.27,16247.56,0,1,Yearly,UPI,223.2,1
+695,Female,67,62,Basic,631.87,39175.94,0,1,Monthly,Credit Card,132.9,0
+696,Female,68,7,Standard,581.91,4073.37,0,1,Quarterly,UPI,75.7,1
+697,Male,34,16,Standard,253.95,4063.2,0,5,Yearly,Net Banking,188.3,0
+698,Female,31,4,Basic,1028.22,4112.88,1,4,Monthly,Wallet,57.7,1
+699,Female,26,4,Basic,976.48,3905.92,2,2,Yearly,Net Banking,228.3,0
+700,Male,57,40,Basic,1049.4,41976.0,1,1,Yearly,Net Banking,19.0,0
+701,Female,19,17,Premium,450.0,7650.0,0,1,Yearly,Credit Card,287.9,0
+702,Female,62,52,Standard,584.35,30386.2,0,0,Monthly,UPI,26.2,0
+703,Male,42,52,Basic,1005.5,52286.0,0,2,Monthly,Wallet,175.9,0
+704,Female,56,36,Basic,979.52,35262.72,2,1,Yearly,Wallet,271.1,1
+705,Male,26,38,Basic,858.23,32612.74,1,3,Monthly,UPI,8.5,0
+706,Male,39,50,Basic,655.54,32777.0,1,4,Quarterly,Credit Card,152.1,0
+707,Female,60,63,Standard,1386.81,87369.03,0,2,Monthly,Credit Card,108.3,0
+708,Female,63,63,Basic,641.7,40427.1,0,1,Monthly,Credit Card,176.2,0
+709,Female,21,62,Basic,792.3,49122.6,0,2,Monthly,Wallet,71.5,0
+710,Female,43,7,Standard,1081.55,7570.85,2,3,Monthly,Credit Card,24.1,0
+711,Male,46,27,Basic,905.93,24460.11,3,3,Monthly,Credit Card,189.7,1
+712,Female,62,14,Standard,650.95,9113.3,2,1,Monthly,Wallet,128.0,0
+713,Male,51,71,Standard,766.34,54410.14,1,2,Monthly,Wallet,188.6,0
+714,Female,40,5,Standard,1232.83,6164.15,0,3,Quarterly,Net Banking,67.1,0
+715,Female,54,55,Standard,561.57,30886.35,2,1,Quarterly,Wallet,104.9,0
+716,Female,28,2,Standard,384.93,769.86,1,2,Monthly,UPI,170.7,1
+717,Male,23,62,Premium,607.11,37640.82,1,3,Monthly,Wallet,180.0,0
+718,Female,35,21,Standard,1304.39,27392.19,1,0,Monthly,Wallet,114.8,0
+719,Female,38,21,Standard,315.69,6629.49,1,2,Monthly,Credit Card,87.6,0
+720,Female,59,10,Premium,1489.2,14892.0,0,2,Monthly,Net Banking,85.7,0
+721,Female,53,58,Standard,903.3,52391.4,0,2,Monthly,Credit Card,56.5,1
+722,Male,58,39,Basic,1480.3,57731.7,0,1,Monthly,Net Banking,101.0,0
+723,Female,55,5,Basic,1420.7,7103.5,0,3,Quarterly,Credit Card,63.8,1
+724,Male,51,65,Basic,788.66,51262.9,0,3,Monthly,UPI,192.0,0
+725,Male,34,13,Premium,458.04,5954.52,1,2,Yearly,Credit Card,172.9,0
+726,Male,54,53,Standard,414.35,21960.55,1,0,Monthly,Credit Card,117.9,0
+727,Male,42,45,Premium,511.99,23039.55,2,1,Yearly,UPI,101.1,0
+728,Male,55,32,Standard,1123.17,35941.44,2,3,Monthly,UPI,75.1,1
+729,Male,29,36,Standard,554.83,19973.88,1,4,Monthly,Wallet,163.0,0
+730,Female,40,60,Basic,643.85,38631.0,1,0,Monthly,Credit Card,276.1,1
+731,Male,59,11,Standard,783.41,8617.51,0,0,Monthly,UPI,207.3,0
+732,Male,39,63,Standard,1387.2,87393.6,1,2,Monthly,UPI,224.6,1
+733,Male,38,21,Premium,446.21,9370.41,1,1,Monthly,Wallet,251.1,0
+734,Female,44,52,Basic,206.53,10739.56,2,2,Quarterly,Net Banking,108.7,0
+735,Female,48,55,Standard,278.13,15297.15,1,1,Monthly,UPI,23.5,0
+736,Male,23,26,Standard,1376.2,35781.2,1,0,Quarterly,UPI,188.7,0
+737,Female,44,68,Standard,1041.77,70840.36,0,0,Monthly,Credit Card,60.7,1
+738,Male,57,34,Standard,554.95,18868.3,2,1,Yearly,Wallet,172.9,0
+739,Male,51,52,Standard,430.35,22378.2,0,1,Monthly,Credit Card,223.2,1
+740,Female,29,52,Basic,582.55,30292.6,1,4,Monthly,Net Banking,236.2,0
+741,Male,62,29,Standard,349.24,10127.96,0,0,Monthly,Wallet,94.0,1
+742,Female,24,38,Standard,1423.99,54111.62,1,1,Monthly,Credit Card,156.2,1
+743,Female,27,42,Premium,1219.47,51217.74,1,3,Monthly,UPI,188.2,0
+744,Male,62,21,Premium,801.11,16823.31,2,7,Monthly,UPI,246.7,0
+745,Male,34,42,Basic,1324.45,55626.9,1,0,Quarterly,Wallet,229.6,0
+746,Female,43,13,Basic,524.3,6815.9,2,5,Yearly,UPI,296.5,1
+747,Male,38,64,Premium,1132.26,72464.64,1,1,Monthly,Credit Card,7.4,1
+748,Male,45,17,Standard,1312.97,22320.49,1,1,Yearly,Wallet,134.1,0
+749,Male,63,9,Premium,663.8,5974.2,0,3,Yearly,UPI,80.5,1
+750,Female,19,41,Basic,1184.7,48572.7,1,2,Yearly,UPI,40.4,1
+751,Female,60,1,Standard,583.59,583.59,1,0,Monthly,Net Banking,273.9,1
+752,Male,18,2,Premium,588.51,1177.02,1,1,Monthly,Net Banking,299.4,1
+753,Female,68,60,Premium,339.17,20350.2,0,1,Monthly,Wallet,58.3,0
+754,Female,53,48,Basic,772.08,37059.84,3,0,Quarterly,Net Banking,16.3,1
+755,Female,68,29,Standard,1148.63,33310.27,0,0,Monthly,Credit Card,86.1,0
+756,Female,43,10,Standard,1422.29,14222.9,2,3,Monthly,UPI,251.3,1
+757,Female,46,58,Basic,984.94,57126.52,5,3,Monthly,UPI,91.7,1
+758,Male,38,60,Standard,1322.08,79324.8,0,4,Monthly,UPI,21.8,0
+759,Male,28,21,Standard,1269.24,26654.04,1,2,Quarterly,Wallet,20.5,0
+760,Male,57,28,Premium,425.35,11909.8,1,1,Monthly,Wallet,131.1,0
+761,Female,28,34,Standard,831.56,28273.04,1,1,Quarterly,Net Banking,279.9,0
+762,Female,53,8,Basic,352.0,2816.0,0,3,Quarterly,UPI,89.3,0
+763,Male,66,59,Basic,1086.8,64121.2,0,2,Monthly,UPI,131.0,0
+764,Female,56,49,Standard,1434.87,70308.63,2,2,Monthly,UPI,35.1,0
+765,Male,57,17,Basic,378.22,6429.74,2,2,Quarterly,UPI,150.6,0
+766,Male,52,60,Standard,1154.05,69243.0,0,2,Monthly,UPI,210.5,0
+767,Male,51,45,Basic,1021.91,45985.95,1,0,Monthly,Credit Card,85.0,0
+768,Female,64,69,Premium,958.69,66149.61,1,1,Monthly,UPI,92.5,0
+769,Female,41,32,Premium,707.16,22629.12,1,1,Monthly,Credit Card,253.4,0
+770,Male,39,44,Standard,661.67,29113.48,1,0,Monthly,UPI,8.1,0
+771,Male,22,65,Premium,258.82,16823.3,0,3,Monthly,Wallet,192.8,1
+772,Male,50,8,Standard,483.28,3866.24,1,4,Monthly,Wallet,121.2,0
+773,Male,53,43,Standard,219.73,9448.39,0,1,Monthly,Credit Card,93.0,0
+774,Female,64,1,Basic,955.84,955.84,1,5,Quarterly,UPI,199.0,0
+775,Female,37,51,Standard,337.61,17218.11,2,0,Monthly,Wallet,251.2,0
+776,Male,36,24,Standard,1334.93,32038.32,0,2,Quarterly,Wallet,169.7,0
+777,Male,52,24,Premium,880.09,21122.16,2,0,Monthly,UPI,14.2,0
+778,Female,69,17,Standard,1109.6,18863.2,1,7,Quarterly,UPI,141.1,0
+779,Female,60,5,Premium,734.11,3670.55,1,4,Monthly,Wallet,141.5,1
+780,Male,34,20,Standard,928.75,18575.0,2,1,Quarterly,UPI,165.4,0
+781,Male,62,21,Basic,1425.46,29934.66,0,0,Monthly,Net Banking,202.9,1
+782,Male,60,58,Premium,307.55,17837.9,2,1,Quarterly,UPI,10.7,0
+783,Female,51,31,Standard,530.12,16433.72,0,2,Monthly,Wallet,153.1,1
+784,Female,26,11,Basic,1213.98,13353.78,1,4,Monthly,Wallet,178.6,1
+785,Female,43,52,Standard,328.36,17074.72,1,1,Monthly,Credit Card,106.3,0
+786,Male,19,15,Basic,298.36,4475.4,0,0,Quarterly,Net Banking,202.2,0
+787,Male,26,7,Standard,670.0,4690.0,2,2,Quarterly,Wallet,72.3,1
+788,Female,26,28,Standard,319.82,8954.96,2,1,Monthly,Net Banking,98.6,0
+789,Female,57,51,Standard,960.6,48990.6,1,2,Quarterly,UPI,289.0,0
+790,Male,34,58,Premium,494.16,28661.28,2,0,Quarterly,Wallet,107.7,0
+791,Female,18,5,Standard,1364.41,6822.05,1,0,Yearly,Credit Card,107.2,0
+792,Female,42,5,Basic,1218.55,6092.75,2,0,Quarterly,Wallet,180.7,1
+793,Male,60,8,Standard,1109.62,8876.96,3,1,Quarterly,Credit Card,291.4,0
+794,Female,57,64,Premium,1002.03,64129.92,1,2,Monthly,Net Banking,295.0,0
+795,Male,59,10,Basic,1322.51,13225.1,2,4,Quarterly,Credit Card,176.0,0
+796,Male,42,38,Basic,489.98,18619.24,1,3,Monthly,UPI,5.3,0
+797,Male,56,8,Basic,1335.04,10680.32,0,4,Yearly,UPI,270.7,1
+798,Male,52,25,Basic,1226.34,30658.5,1,5,Monthly,UPI,173.2,0
+799,Male,20,66,Premium,1172.61,77392.26,0,0,Monthly,Wallet,113.0,0
+800,Male,67,50,Standard,929.63,46481.5,0,3,Monthly,UPI,249.6,1
+801,Male,54,67,Basic,520.12,34848.04,2,2,Quarterly,UPI,123.0,0
+802,Female,61,49,Standard,750.61,36779.89,1,1,Yearly,Wallet,15.0,0
+803,Male,61,36,Basic,1231.64,44339.04,2,1,Monthly,Net Banking,247.2,0
+804,Male,68,68,Premium,241.31,16409.08,0,1,Quarterly,UPI,166.0,0
+805,Female,47,41,Premium,1216.67,49883.47,0,4,Quarterly,UPI,104.8,0
+806,Female,55,62,Basic,512.09,31749.58,0,5,Quarterly,Wallet,79.0,0
+807,Female,51,10,Premium,387.6,3876.0,3,0,Monthly,Net Banking,180.2,1
+808,Male,29,21,Standard,350.41,7358.61,2,2,Quarterly,Net Banking,66.4,0
+809,Female,36,36,Basic,235.43,8475.48,2,2,Monthly,Net Banking,100.5,0
+810,Male,54,12,Basic,880.66,10567.92,4,5,Quarterly,Wallet,192.8,1
+811,Male,61,2,Standard,483.74,967.48,1,0,Monthly,Credit Card,265.1,1
+812,Male,66,13,Standard,1486.26,19321.38,0,0,Monthly,Credit Card,162.2,0
+813,Male,34,53,Premium,946.77,50178.81,0,4,Quarterly,UPI,228.9,0
+814,Female,27,32,Standard,379.25,12136.0,1,3,Monthly,UPI,230.1,1
+815,Female,66,16,Premium,1095.39,17526.24,0,2,Monthly,UPI,201.0,1
+816,Male,64,32,Standard,1367.07,43746.24,0,4,Quarterly,Credit Card,77.5,0
+817,Male,29,32,Premium,1168.73,37399.36,3,1,Monthly,Wallet,260.7,0
+818,Male,33,11,Standard,299.37,3293.07,2,1,Monthly,UPI,133.7,1
+819,Female,41,10,Basic,1364.65,13646.5,1,1,Monthly,Wallet,18.0,0
+820,Male,36,15,Standard,1232.11,18481.65,1,1,Monthly,UPI,77.2,0
+821,Male,25,17,Premium,405.8,6898.6,1,1,Monthly,Wallet,230.8,1
+822,Female,48,40,Basic,267.32,10692.8,0,3,Monthly,Wallet,25.4,0
+823,Female,38,18,Premium,924.5,16641.0,0,1,Yearly,Credit Card,48.5,0
+824,Male,34,55,Basic,402.85,22156.75,1,2,Monthly,Wallet,209.8,1
+825,Female,40,25,Standard,1284.97,32124.25,2,2,Monthly,Net Banking,268.3,0
+826,Female,54,59,Premium,665.84,39284.56,1,1,Monthly,Credit Card,192.0,1
+827,Male,33,22,Basic,1386.76,30508.72,2,6,Monthly,UPI,70.6,0
+828,Female,23,30,Basic,935.39,28061.7,2,2,Quarterly,Credit Card,20.8,0
+829,Male,25,44,Standard,437.47,19248.68,2,5,Quarterly,Net Banking,186.5,0
+830,Female,42,32,Premium,381.48,12207.36,0,3,Monthly,Net Banking,19.0,0
+831,Male,35,51,Basic,949.41,48419.91,1,0,Monthly,Wallet,185.8,0
+832,Male,42,46,Premium,1190.45,54760.7,0,0,Monthly,Net Banking,71.5,1
+833,Male,29,21,Basic,1215.96,25535.16,2,0,Quarterly,Net Banking,271.9,0
+834,Female,32,32,Premium,558.48,17871.36,3,5,Monthly,Net Banking,145.2,1
+835,Male,43,39,Premium,465.52,18155.28,4,2,Monthly,Net Banking,71.1,1
+836,Female,58,12,Standard,221.78,2661.36,0,1,Monthly,UPI,256.7,0
+837,Male,62,47,Standard,1082.96,50899.12,1,0,Quarterly,UPI,79.9,0
+838,Male,43,18,Standard,299.54,5391.72,2,1,Yearly,Credit Card,95.4,0
+839,Female,64,21,Standard,746.99,15686.79,1,0,Yearly,Wallet,251.1,0
+840,Male,49,13,Basic,982.19,12768.47,0,1,Monthly,UPI,96.1,0
+841,Male,27,21,Basic,1418.24,29783.04,1,5,Monthly,Net Banking,126.0,1
+842,Female,33,8,Basic,605.34,4842.72,1,1,Monthly,Wallet,107.6,1
+843,Male,24,46,Standard,524.7,24136.2,2,0,Quarterly,UPI,39.3,0
+844,Male,34,7,Basic,1050.41,7352.87,2,5,Yearly,Credit Card,16.5,0
+845,Male,40,23,Standard,1005.01,23115.23,0,1,Monthly,Net Banking,218.7,0
+846,Male,43,22,Premium,631.74,13898.28,1,4,Monthly,Wallet,195.3,0
+847,Female,38,22,Basic,1406.53,30943.66,1,1,Monthly,UPI,88.3,1
+848,Female,39,29,Standard,1298.32,37651.28,2,1,Monthly,Wallet,92.2,1
+849,Male,24,13,Standard,491.18,6385.34,1,1,Monthly,UPI,283.8,0
+850,Female,31,2,Premium,510.89,1021.78,1,1,Monthly,Credit Card,296.4,0
+851,Male,32,29,Premium,865.99,25113.71,2,3,Monthly,Net Banking,144.7,0
+852,Female,24,52,Premium,1205.64,62693.28,0,3,Monthly,Credit Card,241.7,0
+853,Male,26,27,Premium,257.25,6945.75,1,2,Quarterly,Net Banking,222.3,0
+854,Male,68,50,Basic,1101.34,55067.0,2,2,Monthly,Net Banking,92.7,1
+855,Male,65,23,Premium,1042.71,23982.33,3,1,Monthly,Wallet,22.3,1
+856,Male,25,44,Standard,500.92,22040.48,0,3,Monthly,UPI,47.1,0
+857,Male,67,22,Basic,1085.76,23886.72,0,1,Yearly,Credit Card,252.3,0
+858,Male,40,43,Premium,1422.24,61156.32,2,4,Quarterly,Credit Card,220.7,0
+859,Female,46,37,Basic,260.82,9650.34,2,1,Monthly,Credit Card,201.0,0
+860,Male,35,61,Standard,615.55,37548.55,1,3,Monthly,Wallet,43.5,0
+861,Female,48,56,Basic,769.63,43099.28,1,2,Monthly,Wallet,193.8,1
+862,Male,47,3,Standard,1369.04,4107.12,1,1,Quarterly,Wallet,232.8,1
+863,Female,69,63,Standard,1450.94,91409.22,2,2,Quarterly,Net Banking,258.9,0
+864,Female,56,19,Standard,777.35,14769.65,1,4,Yearly,Credit Card,8.9,0
+865,Female,52,23,Standard,1175.04,27025.92,0,2,Monthly,Net Banking,206.9,0
+866,Male,35,29,Basic,891.16,25843.64,1,2,Yearly,Credit Card,10.6,0
+867,Male,59,30,Premium,899.12,26973.6,1,1,Yearly,Credit Card,213.5,0
+868,Female,56,39,Basic,561.53,21899.67,1,2,Yearly,UPI,192.5,0
+869,Male,34,25,Standard,482.04,12051.0,1,2,Monthly,Credit Card,48.8,0
+870,Female,31,8,Premium,574.41,4595.28,2,1,Monthly,Wallet,231.0,1
+871,Male,48,58,Premium,923.23,53547.34,0,0,Monthly,Wallet,25.2,0
+872,Female,41,16,Standard,237.9,3806.4,0,0,Monthly,Wallet,248.8,0
+873,Female,52,1,Standard,1379.42,1379.42,0,1,Monthly,UPI,82.3,0
+874,Male,61,5,Premium,403.17,2015.85,0,3,Quarterly,UPI,208.2,0
+875,Female,62,3,Premium,486.12,1458.36,0,1,Quarterly,Net Banking,277.5,0
+876,Male,51,65,Standard,873.76,56794.4,0,2,Yearly,Credit Card,105.2,0
+877,Female,20,4,Basic,1123.15,4492.6,0,1,Monthly,Credit Card,153.4,0
+878,Female,54,64,Basic,324.45,20764.8,0,2,Monthly,Wallet,141.6,1
+879,Male,60,10,Basic,613.0,6130.0,0,4,Quarterly,Wallet,51.5,0
+880,Male,57,21,Standard,1459.28,30644.88,0,1,Monthly,Wallet,179.1,0
+881,Male,43,46,Basic,541.05,24888.3,0,1,Monthly,Wallet,224.2,0
+882,Female,40,27,Standard,606.97,16388.19,1,1,Yearly,Wallet,275.5,0
+883,Male,61,66,Basic,1287.45,84971.7,0,3,Quarterly,Wallet,256.0,0
+884,Female,56,41,Basic,265.28,10876.48,1,4,Monthly,Credit Card,155.5,1
+885,Female,32,13,Premium,804.0,10452.0,0,6,Quarterly,UPI,217.1,0
+886,Male,66,9,Standard,693.5,6241.5,0,1,Quarterly,Wallet,241.2,1
+887,Male,21,36,Basic,611.56,22016.16,1,1,Quarterly,Credit Card,150.6,0
+888,Female,46,58,Premium,571.41,33141.78,0,6,Quarterly,Wallet,39.1,0
+889,Female,39,54,Basic,318.79,17214.66,0,2,Monthly,Net Banking,134.2,0
+890,Male,42,12,Standard,609.27,7311.24,1,2,Quarterly,Net Banking,253.5,0
+891,Male,30,14,Standard,255.97,3583.58,0,3,Monthly,Credit Card,181.0,0
+892,Male,35,34,Basic,1215.25,41318.5,2,4,Monthly,UPI,218.7,1
+893,Male,50,53,Premium,717.7,38038.1,1,0,Yearly,Net Banking,59.7,0
+894,Male,33,20,Standard,777.07,15541.4,0,3,Monthly,Net Banking,289.5,0
+895,Female,62,16,Standard,1361.67,21786.72,1,3,Quarterly,UPI,124.2,0
+896,Female,59,70,Basic,1055.47,73882.9,3,3,Quarterly,Net Banking,197.8,1
+897,Female,61,56,Basic,210.48,11786.88,1,1,Yearly,Wallet,10.6,0
+898,Female,19,58,Premium,1426.13,82715.54,1,0,Yearly,UPI,42.6,0
+899,Male,52,4,Basic,508.29,2033.16,0,0,Monthly,Net Banking,235.7,1
+900,Male,59,4,Standard,339.9,1359.6,0,1,Monthly,UPI,290.6,1
+901,Male,51,20,Standard,1198.57,23971.4,0,1,Monthly,Wallet,99.4,0
+902,Female,47,10,Standard,850.62,8506.2,0,1,Monthly,Net Banking,16.0,1
+903,Female,30,24,Basic,763.9,18333.6,2,1,Monthly,Credit Card,111.5,0
+904,Male,30,26,Basic,524.35,13633.1,1,5,Monthly,Net Banking,10.2,0
+905,Male,35,37,Standard,911.71,33733.27,4,3,Quarterly,Net Banking,61.8,0
+906,Female,49,54,Basic,556.7,30061.8,0,2,Yearly,Wallet,227.0,0
+907,Female,49,21,Basic,1372.06,28813.26,2,1,Quarterly,Credit Card,281.4,0
+908,Male,52,38,Basic,479.77,18231.26,0,1,Quarterly,Credit Card,30.8,0
+909,Male,56,46,Standard,1349.66,62084.36,1,1,Monthly,Credit Card,169.6,1
+910,Female,63,4,Premium,927.23,3708.92,1,3,Monthly,Wallet,79.9,0
+911,Male,69,60,Basic,1277.03,76621.8,0,6,Monthly,Wallet,46.0,1
+912,Male,46,57,Basic,1126.7,64221.9,0,2,Quarterly,Wallet,69.6,1
+913,Male,66,45,Basic,1105.7,49756.5,3,4,Monthly,Wallet,175.4,0
+914,Female,46,20,Standard,621.65,12433.0,0,0,Quarterly,Wallet,24.2,0
+915,Female,61,17,Standard,504.07,8569.19,2,3,Monthly,Credit Card,133.1,0
+916,Female,33,71,Standard,474.15,33664.65,1,6,Monthly,UPI,44.9,0
+917,Female,61,4,Standard,1314.35,5257.4,0,2,Monthly,Wallet,85.4,1
+918,Female,64,14,Standard,1266.55,17731.7,0,3,Monthly,UPI,61.3,1
+919,Female,27,3,Premium,772.75,2318.25,1,2,Monthly,Net Banking,265.5,1
+920,Female,47,58,Premium,372.13,21583.54,1,1,Quarterly,Net Banking,213.9,0
+921,Male,42,55,Basic,696.93,38331.15,1,1,Quarterly,Wallet,261.2,0
+922,Male,56,4,Basic,1005.15,4020.6,0,2,Monthly,Net Banking,118.1,1
+923,Male,37,24,Basic,790.72,18977.28,0,5,Quarterly,UPI,97.5,0
+924,Male,22,34,Basic,1214.25,41284.5,0,2,Monthly,Net Banking,117.3,0
+925,Male,18,30,Premium,1496.91,44907.3,3,1,Yearly,Net Banking,10.5,0
+926,Male,47,19,Standard,448.47,8520.93,0,2,Monthly,UPI,218.8,0
+927,Male,66,31,Basic,797.55,24724.05,1,1,Quarterly,Net Banking,108.2,0
+928,Female,20,60,Standard,760.28,45616.8,2,2,Monthly,Wallet,97.4,0
+929,Female,62,60,Standard,595.84,35750.4,2,1,Monthly,UPI,181.5,1
+930,Male,31,19,Basic,457.52,8692.88,1,0,Monthly,UPI,133.7,1
+931,Male,47,49,Basic,285.4,13984.6,0,2,Monthly,Credit Card,294.3,1
+932,Female,67,63,Standard,1353.26,85255.38,2,2,Monthly,Credit Card,110.1,0
+933,Male,21,22,Standard,745.8,16407.6,1,2,Monthly,UPI,186.1,1
+934,Male,35,24,Basic,845.96,20303.04,2,0,Yearly,UPI,96.9,0
+935,Female,54,30,Basic,1392.02,41760.6,1,2,Quarterly,Credit Card,297.2,0
+936,Male,42,58,Standard,1209.18,70132.44,1,2,Quarterly,Wallet,136.3,0
+937,Female,65,31,Basic,369.65,11459.15,1,2,Quarterly,Net Banking,192.1,0
+938,Male,18,64,Standard,935.05,59843.2,1,0,Yearly,Net Banking,42.4,0
+939,Female,63,19,Standard,774.93,14723.67,0,1,Monthly,Net Banking,221.2,0
+940,Female,32,48,Basic,1236.37,59345.76,3,3,Monthly,UPI,84.4,1
+941,Female,26,45,Premium,1141.5,51367.5,2,1,Yearly,Wallet,137.3,0
+942,Male,32,55,Standard,1097.53,60364.15,0,0,Quarterly,Credit Card,265.5,0
+943,Female,66,55,Basic,642.71,35349.05,3,2,Monthly,Wallet,291.3,1
+944,Male,41,18,Standard,1246.45,22436.1,1,2,Monthly,Wallet,130.2,0
+945,Male,21,63,Standard,268.11,16890.93,2,1,Monthly,Net Banking,251.3,0
+946,Male,29,47,Standard,407.51,19152.97,1,2,Yearly,Credit Card,20.7,0
+947,Male,54,57,Basic,636.31,36269.67,2,1,Monthly,Wallet,255.0,0
+948,Female,54,45,Premium,299.85,13493.25,0,2,Yearly,Credit Card,190.7,0
+949,Female,60,33,Standard,505.49,16681.17,1,0,Yearly,UPI,149.2,0
+950,Male,23,17,Basic,1279.2,21746.4,1,2,Quarterly,Net Banking,267.5,0
+951,Male,56,70,Basic,1432.73,100291.1,1,2,Monthly,Credit Card,254.4,0
+952,Female,63,4,Basic,595.98,2383.92,1,2,Monthly,UPI,92.6,1
+953,Male,41,20,Premium,543.87,10877.4,1,2,Monthly,UPI,238.5,0
+954,Female,28,47,Basic,563.86,26501.42,2,2,Monthly,UPI,34.3,0
+955,Male,30,15,Basic,561.03,8415.45,1,2,Quarterly,Wallet,247.7,0
+956,Male,51,70,Premium,246.71,17269.7,0,1,Monthly,Wallet,204.3,0
+957,Female,42,47,Basic,1404.99,66034.53,2,3,Monthly,Net Banking,30.9,0
+958,Male,24,9,Basic,477.81,4300.29,2,3,Monthly,Net Banking,206.5,1
+959,Female,69,16,Basic,746.01,11936.16,0,1,Yearly,UPI,176.3,1
+960,Male,21,69,Basic,212.59,14668.71,0,0,Monthly,Net Banking,180.4,1
+961,Male,25,61,Basic,1315.34,80235.74,0,0,Yearly,Wallet,90.8,0
+962,Male,37,10,Standard,1150.5,11505.0,2,1,Monthly,Net Banking,83.6,0
+963,Female,46,50,Basic,1430.78,71539.0,3,2,Monthly,Credit Card,229.9,0
+964,Male,68,3,Basic,1216.1,3648.3,0,2,Monthly,Wallet,80.8,0
+965,Male,62,70,Standard,607.82,42547.4,2,4,Monthly,UPI,136.6,0
+966,Male,63,51,Standard,522.24,26634.24,0,0,Quarterly,UPI,210.0,0
+967,Male,27,19,Standard,1107.03,21033.57,0,1,Monthly,Net Banking,28.5,0
+968,Female,60,42,Standard,673.35,28280.7,3,5,Monthly,Wallet,180.4,0
+969,Female,51,35,Basic,936.08,32762.8,0,4,Quarterly,UPI,178.9,0
+970,Male,43,46,Standard,208.13,9573.98,1,0,Quarterly,UPI,206.8,0
+971,Female,58,26,Standard,280.45,7291.7,1,2,Quarterly,Wallet,114.1,0
+972,Male,66,69,Basic,895.98,61822.62,2,2,Monthly,Wallet,137.4,1
+973,Male,20,64,Premium,935.89,59896.96,0,5,Monthly,UPI,102.3,0
+974,Male,23,37,Basic,1176.89,43544.93,2,0,Yearly,Net Banking,243.4,0
+975,Female,22,49,Standard,371.55,18205.95,2,0,Yearly,Net Banking,43.5,0
+976,Female,22,21,Basic,867.14,18209.94,1,2,Yearly,Net Banking,289.1,0
+977,Female,64,64,Standard,452.78,28977.92,1,1,Monthly,Credit Card,192.3,0
+978,Female,40,5,Standard,321.15,1605.75,1,3,Quarterly,Wallet,266.6,0
+979,Female,66,70,Premium,733.64,51354.8,3,0,Quarterly,UPI,130.7,0
+980,Female,26,4,Basic,412.34,1649.36,1,3,Monthly,Credit Card,103.0,0
+981,Female,52,39,Standard,488.32,19044.48,0,1,Quarterly,Net Banking,270.7,0
+982,Female,37,35,Standard,612.82,21448.7,1,3,Quarterly,Credit Card,34.2,0
+983,Female,66,1,Standard,537.2,537.2,0,0,Monthly,UPI,39.5,0
+984,Male,59,24,Standard,313.87,7532.88,1,1,Monthly,UPI,93.3,0
+985,Female,52,57,Standard,316.89,18062.73,0,1,Quarterly,Wallet,288.1,0
+986,Female,67,70,Standard,451.22,31585.4,2,1,Monthly,Net Banking,191.8,0
+987,Female,35,41,Basic,265.73,10894.93,3,1,Monthly,Net Banking,168.5,1
+988,Female,34,54,Standard,1014.39,54777.06,0,3,Monthly,Credit Card,213.1,0
+989,Female,41,46,Basic,573.52,26381.92,2,5,Monthly,Net Banking,128.2,1
+990,Female,20,60,Premium,563.67,33820.2,0,3,Yearly,Credit Card,228.6,0
+991,Female,49,60,Standard,631.6,37896.0,0,2,Monthly,UPI,121.0,0
+992,Female,52,57,Premium,1061.64,60513.48,1,1,Monthly,UPI,248.8,0
+993,Female,55,31,Basic,1331.82,41286.42,1,1,Yearly,UPI,83.9,0
+994,Female,30,24,Premium,1186.81,28483.44,0,4,Monthly,UPI,86.9,0
+995,Female,64,36,Premium,1145.79,41248.44,2,2,Monthly,UPI,159.1,0
+996,Male,42,30,Standard,829.71,24891.3,0,3,Quarterly,Credit Card,132.1,0
+997,Male,26,24,Standard,1101.95,26446.8,1,1,Monthly,UPI,196.2,0
+998,Female,21,30,Basic,918.59,27557.7,2,1,Monthly,Credit Card,112.5,0
+999,Female,31,7,Premium,481.13,3367.91,1,2,Quarterly,UPI,73.0,0
+1000,Male,54,35,Standard,471.16,16490.6,1,1,Quarterly,Credit Card,143.6,0

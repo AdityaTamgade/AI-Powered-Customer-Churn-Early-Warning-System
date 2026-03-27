@@ -2,6 +2,13 @@ import streamlit as st
 import pandas as pd
 import joblib
 import json
+import os
+
+# ------------------------------
+# RAG IMPORTS
+# ------------------------------
+from rag.retrieve import retrieve
+from rag.generate import generate_response
 
 # ------------------------------
 # LOAD MODELS + SCALER + FEATURES
@@ -16,13 +23,19 @@ with open("models/feature_names.json", "r") as f:
 # PAGE CONFIG
 # ------------------------------
 st.set_page_config(
-    page_title="Customer Churn Predictor",
+    page_title="AI Powered Customer Churn Predictor",
     page_icon="📊",
     layout="wide",
 )
 
 st.title("📊 Customer Churn Early Warning System")
-st.write("Fill in the customer details below to predict the probability of churn.")
+st.caption("AI + ML powered churn prediction with explainability")
+
+# ------------------------------
+# CHECK GEMINI API KEY
+# ------------------------------
+if not os.getenv("GEMINI_API_KEY"):
+    st.warning("⚠ GEMINI_API_KEY not found. AI features will not work.")
 
 # ------------------------------
 # INPUT SECTIONS
@@ -86,21 +99,71 @@ input_df = input_df[feature_names]
 scaled_input = scaler.transform(input_df)
 
 # ------------------------------
-# PREDICTION
+# PREDICTION BUTTON
 # ------------------------------
-if st.button("Predict Churn"):
+if st.button("🚀 Predict Churn"):
+
     prediction = model.predict(scaled_input)[0]
     proba = model.predict_proba(scaled_input)[0][1]
 
     st.markdown("---")
     st.subheader("🔍 Prediction Result")
-    
-    col1, col2 = st.columns(2)
-    if prediction == 1:
-        col1.error(f"⚠ Customer likely to churn!")
-    else:
-        col1.success(f"😊 Customer is NOT likely to churn.")
-    
-    col2.metric(label="Churn Probability", value=f"{proba:.2%}")
 
-    st.balloons()  # fun animation for positive result
+    col1, col2 = st.columns(2)
+
+    if prediction == 1:
+        col1.error("⚠ Customer likely to churn!")
+        pred_text = f"Customer likely to churn with probability {proba:.2%}"
+    else:
+        col1.success("😊 Customer is NOT likely to churn.")
+        pred_text = f"Customer not likely to churn. Probability {proba:.2%}"
+
+    col2.metric("Churn Probability", f"{proba:.2%}")
+
+    # Animation only for non-churn
+    if prediction == 0:
+        st.balloons()
+
+    # ------------------------------
+    # 🤖 RAG AI EXPLANATION
+    # ------------------------------
+    st.markdown("---")
+    st.subheader("🤖 AI-Powered Explanation & Strategy")
+
+    with st.spinner("Analyzing customer behavior with AI..."):
+
+        try:
+            query = "Why will this customer churn and what actions should be taken?"
+            retrieved_docs = retrieve(query)
+
+            explanation = generate_response(pred_text, retrieved_docs)
+
+            st.success(explanation)
+
+        except Exception as e:
+            st.error("❌ Failed to generate AI explanation")
+            st.exception(e)
+
+# ------------------------------
+# 💬 CHATBOT SECTION
+# ------------------------------
+st.markdown("---")
+st.subheader("💬 AI Churn Assistant")
+
+st.write("Ask anything about churn, retention, or customer behavior")
+
+user_query = st.text_input("Type your question...")
+
+if user_query:
+
+    with st.spinner("Thinking..."):
+
+        try:
+            retrieved_docs = retrieve(user_query)
+            answer = generate_response("General Query", retrieved_docs)
+
+            st.info(answer)
+
+        except Exception as e:
+            st.error("❌ Error generating response")
+            st.exception(e)

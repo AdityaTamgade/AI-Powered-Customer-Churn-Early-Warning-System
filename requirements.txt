@@ -8,3 +8,7 @@ sqlalchemy
 streamlit>=1.30.0
 joblib
 xgboost
+
+sentence-transformers
+faiss-cpu
+requests

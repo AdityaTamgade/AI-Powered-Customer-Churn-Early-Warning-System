@@ -3,6 +3,13 @@ import pandas as pd
 import joblib
 import json
 import os
+import sys
+
+# ------------------------------
+# ✅ FIX PATH FOR DEPLOYMENT
+# ------------------------------
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(BASE_DIR)
 
 # ------------------------------
 # RAG IMPORTS
@@ -11,12 +18,12 @@ from rag.retrieve import retrieve
 from rag.generate import generate_response
 
 # ------------------------------
-# LOAD MODELS + SCALER + FEATURES
+# LOAD MODELS + FILES (SAFE PATH)
 # ------------------------------
-model = joblib.load("models/random_forest_model.pkl")
-scaler = joblib.load("models/scaler.pkl")
+model = joblib.load(os.path.join(BASE_DIR, "../models/random_forest_model.pkl"))
+scaler = joblib.load(os.path.join(BASE_DIR, "../models/scaler.pkl"))
 
-with open("models/feature_names.json", "r") as f:
+with open(os.path.join(BASE_DIR, "../models/feature_names.json"), "r") as f:
     feature_names = json.load(f)
 
 # ------------------------------
@@ -99,7 +106,7 @@ input_df = input_df[feature_names]
 scaled_input = scaler.transform(input_df)
 
 # ------------------------------
-# PREDICTION BUTTON
+# PREDICTION
 # ------------------------------
 if st.button("🚀 Predict Churn"):
 
@@ -120,7 +127,6 @@ if st.button("🚀 Predict Churn"):
 
     col2.metric("Churn Probability", f"{proba:.2%}")
 
-    # Animation only for non-churn
     if prediction == 0:
         st.balloons()
 
@@ -130,7 +136,7 @@ if st.button("🚀 Predict Churn"):
     st.markdown("---")
     st.subheader("🤖 AI-Powered Explanation & Strategy")
 
-    with st.spinner("Analyzing customer behavior with AI..."):
+    with st.spinner("Analyzing with AI..."):
 
         try:
             query = "Why will this customer churn and what actions should be taken?"
@@ -141,18 +147,16 @@ if st.button("🚀 Predict Churn"):
             st.success(explanation)
 
         except Exception as e:
-            st.error("❌ Failed to generate AI explanation")
+            st.error("❌ AI explanation failed")
             st.exception(e)
 
 # ------------------------------
-# 💬 CHATBOT SECTION
+# 💬 CHATBOT
 # ------------------------------
 st.markdown("---")
 st.subheader("💬 AI Churn Assistant")
 
-st.write("Ask anything about churn, retention, or customer behavior")
-
-user_query = st.text_input("Type your question...")
+user_query = st.text_input("Ask anything about churn...")
 
 if user_query:
 
@@ -165,5 +169,5 @@ if user_query:
             st.info(answer)
 
         except Exception as e:
-            st.error("❌ Error generating response")
+            st.error("❌ Chatbot error")
             st.exception(e)
